@@ -2,9 +2,15 @@
 Sebzés(szívben): 25,5 (töltve 85) 
 
 Keletkezés:
-
+Creeperek bárhol keletkezhetnek a világban kivéve gomba szigeteken és a mély sötétségben.
 
 Zsákmány:
+Ha egy creepert egy játékos megöl akkor az 5 tapasztalatpontot kap belőle, továbbá akár 2 puskaport. Ha egy csontváz öl meg eggyet akkor van esély rá hogy hanglemezt dobjon. 
 
 
 Viselkedés:
+Ha a játékostól 3 blokkon belül egy creeper abbahagyja a mozgást, sziszeg, villog és kitágul, majd 1,5 másodperc múlva felrobban, tönkretéve a blokkokat a területen, valamint jelentősen megrongálva a játékost. A creeper detonációja leállítható, ha a játékos elhagyja a robbanás sugarát.
+
+A feltöltött creeper jelentősen megnövelt robbanóképességgel rendelkezik.
+
+Feltöltött creeper csak akkor jön létre, ha egy normál creeper négy blokkján belül becsap a villám.

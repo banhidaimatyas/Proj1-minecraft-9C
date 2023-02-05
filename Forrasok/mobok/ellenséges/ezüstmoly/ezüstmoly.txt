@@ -1,0 +1,11 @@
+Életerő(szívben): 4
+Sebzés(szívben): 0,5
+
+Keletkezés:
+Az ezüstmolyok törött, fertőzött blokkokban keletkeznek, amelyek erődökben, föld alatti hegyekbem és iglupincékben és erdei kastélyok hamis portálszobáiban keletkeznek.
+
+Zsákmány:
+Ha egy ezüstmolyt egy játékos megöl akkor csak 5 tapasztalatpontot kap belőle.
+
+Viselkedés:
+Az ezüstmolyok támadják a játékosokat, vasgólemeket és hívják a környéken lévő többi ezüstmolyt, amikor eltalálják őket. ezüstmoly útvonalat talál a játékos felé, és láthatja a játékost a falakon keresztül is.
