@@ -1,0 +1,11 @@
+Életerő(szívben): 10
+Sebzés(szívben): 3
+
+Keletkezés:
+Fantomok csak akkor jönnek létre ha az égbolt elérhető, éjszaka vagy vihar van és a játékos már eltöltött 3 alvás nélküli napot. Ha minden feltétel teljesül, egy fantomcsoport megpróbál 20–34 blokknon belül a játékos felett megjelenni.
+
+Zsákmány:
+Ha egy fantomot egy játékos megöl akkor az 5 tapasztalatpontot kap belőle. Egy fantom még dobhat akár famtommembránt is.
+
+Viselkedés:
+A fantomok körkörös mintázatban repülnek a játékostól nem messze, miközben szürke füstöt hagynak maguk után. Mozgási sebességük az egyik leggyorsabb a mobok közül, akár 20 blokk másodpercenként. A fantomok 10-20 másodpercenként egyszer‌ gyorsan lecsapnak a játékosra és megbróbálják megharapni.

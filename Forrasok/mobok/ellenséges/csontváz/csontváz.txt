@@ -1,0 +1,15 @@
+Életerő(szívben): 10
+Sebzés(szívben): 3-4
+
+Keletkezés:
+A csontvázak 0-ás fényszinten , 4-es vagy 5-ös csoportokban jönnek létre a a világban, és 7-es vagy annál alacsonyabb fényszinten is megjelenhetnek az alvilágban. ‌
+
+Zsákmány:
+Ha egy csontvázat egy játékos megöl akkor az 5 tapasztalatpontot kap belőle. Ha a csontváz felszereléssel is rendelkezett az extra 1-3 tapasztalatpontot jelent. A csontváz ezenkívül csontot, nyilat, felszerelését dobhatja el.
+
+Viselkedés:
+Amikor a célpontt van 15 blokkon belül, tiszta rálátás mellett elkezdenek lövöldözni nyilakkal 2 másodpercenként egyszer. Ha a játékos elhagyja a 15 blokkos sugarat, a csontvázak feltöltött íjjal várnak néhány másodpercet, és akkor lőnek, amikor a játékos ismét hatótávolságon belülre kerül.
+
+A csontvázak hajnalban elégnek, amikor a Nap 15 fokkal vagy magasabban van a föld felett.
+
+Néhány csontváz képes felszedni a földről leejtett tárgyakat. A zombikkal ellentétben azonban csak fegyvereket vagy páncélokat vesznek fel.
