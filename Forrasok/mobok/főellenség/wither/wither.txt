@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 150-300
+Sebzés(szívben): 2,5-6
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Nem terem természetesen, hanem a játékosnak kell megépíteni lélekhomokból és withercsontváz koponyából
 
 
-Viselkedés:
+Zsákmány: Halálakor egy alvilági csillagot dob, valamint 50 tapasztalatot dob.
+
+
+Viselkedés: Koponyákat lőnek ki, amik úgy néznek ki, mint a wither egyik feje. Ha eltalálja a játékost sorvadás effektet kap.

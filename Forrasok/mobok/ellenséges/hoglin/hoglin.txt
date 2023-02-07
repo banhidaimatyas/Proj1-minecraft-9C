@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 20
+Sebzés(szívben): 1,25-6
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: 3-4 fős csordákban, kramazsin erdőkben találhatóak. Keletkezésük nem függ a fény szintjétől, sem a legtöbb blokktól. 
 
 
-Viselkedés:
+Zsákmány: Ha egy játékos megöl egy hoglint akkor az 5 tapasztalatpontot kap belőle.  A hoglin ezenfelül disznóhúst, bőrt ejthet le .
+
+
+Viselkedés: Egyes gombafajokat és az alvilági átjárót kerülik. Mély vízben, mivel úszni nem tudnak, megfulladnak, lávában pedig elégnek. Annak ellenére, hogy ellenségesek meg lehet őket nyergelni.  

@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 10
+Sebzés(szívben): 6
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Az alvilágban a levegőben akadhatunk rájuk.
 
 
-Viselkedés:
+Zsákmány: Kísértetkönnyet vagy puskaport dob.
+
+
+Viselkedés: Ha meglát tűzgolyókat lő feléd, ami meggyújtja és feldobbantja a körülötted lévő alvilágkövet.

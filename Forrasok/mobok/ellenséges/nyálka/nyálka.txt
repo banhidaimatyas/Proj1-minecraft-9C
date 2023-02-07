@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 0,5-8
+Sebzés(szívben): 0-6
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: 16. vagy azalatt lévő szinten található meg. Továbbá mocsárban este is keletkezhetnek.
 
 
-Viselkedés:
+Zsákmány:  Megölésekor nyálkagolyót dobhat 1-4 tapasztalat mellett.
+
+
+Viselkedés: A nyálkák lassan, ugrálással mozognak. A többi szörnyhöz hasonlóan, ha 16 kockányira állsz tőle, megtámad. A nyálkák tudnak létrát mászni.
