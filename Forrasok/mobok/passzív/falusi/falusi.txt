@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 5
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A falvak környékén és az épületek belsejében teremnek. Saját épületüknek megfelelő szerepet kapnak (pl.: templomban papok teremnek).
 
 
-Viselkedés:
+Zsákmány: Nem dobnak semmit.
+
+
+Viselkedés: A falusiak látszólag véletlenszerűen vándorolnak a falvak környékén, azonban mozgásukat "HA" feltételek irányítják .A falusiak használni tudják az ajtókat így a házaikból képesek ki-bejárkálni. Ha esik az eső vagy éjszaka van vagy zombik üldözik őket a falusiak a házaikba menekülnek. 

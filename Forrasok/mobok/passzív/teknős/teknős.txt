@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 15
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Tengerparton keletkeznek.
 
 
-Viselkedés:
+Zsákmány: 0-2 tengerifüvet dobhatnak. Ha villám öli meg egy tálat dob.
+
+
+Viselkedés: Csak tengerifűvel lehet szaporítani őket. Csak homokra rakják tojásaikat. Mindig amikor tojásokat raknak csak azon a partszakaszon rakják, ahol keletkeznek.

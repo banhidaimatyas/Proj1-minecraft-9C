@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 5
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Fehér, fekete, szürke, világosszürke, barna és rózsaszínű természetesen is előfordulhat.
 
 
-Viselkedés:
+Zsákmány: Meg lehet őket nyírni ollóval, (vagy szimplán megölni) hogy gyapjút kapjunk. Emellett brárnyhúst is dobnak.
+
+
+Viselkedés: Meg tudják enni a füvet, így visszenöveszthetik levágott szörüket.

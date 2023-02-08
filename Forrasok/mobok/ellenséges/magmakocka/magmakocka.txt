@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 0,5-16
+Sebzés(szívben): 1,25-4,5
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Az alvilág összes területén előfordulhatnak. Teljeskörű tűzálló képeségük miatt akár magmán ia keletkezhetnek.
 
 
-Viselkedés:
+Zsákmány: 1-4 tapasztalatot dobhatnak, emellett kis eséllyel magmakrémet is adhatnak.
+
+
+Viselkedés: k. Fel-le ugrálva mozognak és amikor a levegőben vannak, egy pillanatra rétegekre nyílnak szét, amitől kissé rugószerűen néznek ki. Ekkor látható lesz a belsejükben lévő olvadt lávamag. Elsüllyednek a lávában és lassítja is őket, de nem fulladnak meg benne. 

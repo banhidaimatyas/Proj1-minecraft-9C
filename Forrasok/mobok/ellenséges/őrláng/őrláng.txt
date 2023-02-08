@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 2,5
+Sebzés(szívben): 2-4,5
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Az alvilági erődökben akár kettesével vagy hármasával is fellelhetőek 
 
 
-Viselkedés:
+Zsákmány: Halálakor lángrudat dobhatnak.
+
+
+Viselkedés: Megsebzése után lángba borítja magát, és 3 tűzgömböt lő ki támadásonként. Ez az egyik mob amelyet a hógólem is sebez.

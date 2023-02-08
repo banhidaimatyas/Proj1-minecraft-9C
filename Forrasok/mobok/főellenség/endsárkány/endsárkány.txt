@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 100
+Sebzés(szívben): 1,5-7,5
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A végzetsárkány csakis a Végben terem és csak 1 darab van belőle.
 
 
-Viselkedés:
+Zsákmány: Ha legyőzted a sárkányt, akkor a legmagasabb XP jutalomban részesülsz, a halála helyén megjelenik a visszautat nyújtó portál, és a sárkánytojás is. A portálba lépve mielőtt visszajutsz, egy dialógust látsz majd. Ha legyőzted, végigvitted a Minecraftot, viszont a portálba ugrás után változatlanul tovább játszhatod a játékot.
+
+
+Viselkedés: A végzetsárkány nehézségi szinttől függetlenül megtámad amint a végbe érkeztél. Ha megsebesült az egyik obszidiántornyon levő végzetkristály körül repül így feltölti az életét. A sárkány képes minden létező blokkot áttörni.

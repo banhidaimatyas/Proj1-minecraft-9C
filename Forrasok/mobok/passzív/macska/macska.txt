@@ -1,11 +1,11 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 5
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A párducok világos narancssárga színű mobok fekete foltokkal. Szemük zöld.A macskánk három típusa van:a fekete,a sárga és a sziámi macska. A macska kisebb mint az ocelot. A párducok kizárólag dzsungbelban teremnek.
 
 
-Viselkedés:
+Zsákmány: Nem dobnak semmit.
+
+
+Viselkedés: Általában elmenekülnek a játékos elől, de nyers hallal oda tudjuk csalogatni őket magunkhoz. A szelídítésük nem olyan egyszerű, mint a farkasoké.
 

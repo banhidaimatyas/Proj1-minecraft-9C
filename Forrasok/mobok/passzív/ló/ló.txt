@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 7,5-15
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A sima lovakra tisztáson találhatunk rá. Csontvázlovakká akkor változnak át mikor villám csak beléjük. Zombilovakat csak csalás segítségével csinálhatunk.
 
 
-Viselkedés:
+Zsákmány: 0-2 bőrt dob.
+
+
+Viselkedés: A ló egy olyan mob melyet először szelídíteni kell és utána tudsz rajta a nyereg segítségével lovagolni. 

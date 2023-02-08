@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 7
+Sebzés(szívben): 2
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Lush swamp vagy cave biomban lehet velük találkozni.
 
 
-Viselkedés:
+Zsákmány: Tapasztalaton kívül nem dobnak semmit.
+
+
+Viselkedés:  csak úgy úszkálnak, megtizedelve minden halat és ellenséget a környéken. Ahhoz, hogy kövessenek, egy trópusi halat kell tartanod a kezedben.
