@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 3
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A denevérek 63. réteg alatt, átlátszatlan, 3-as, vagy kisebb fényességű tömör blokkokon teremnek.
 
 
-Viselkedés:
+Zsákmány: A denevérek nem dobnak semmit.
+
+
+Viselkedés: A denevérek nagyon kicsik,kisebb,mint egy fél blokk. Véletlen szerűen felvinnyognak. Céltalanul repülnek, előnyben részesítve a keleti oldalt, néha elrepülnek a láva felett, és lángra kapnak.

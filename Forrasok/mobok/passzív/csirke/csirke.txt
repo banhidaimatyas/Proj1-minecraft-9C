@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 2
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A csirkék átlátszatlan, legalább 2 levegő blokk magasságú helyen, 9-es, vagy magasabb fényességű fű blokkokon teremnek.
 
 
-Viselkedés:
+Zsákmány: A csirkék 0-2 tollat, 1 nyers csirkehúst és 1-3 tapasztalatot dobnak, ha meghalnak.
+
+
+Viselkedés: A csirkék céltalanul vándorolnak. Gyakori látvány, hogy pár csirke fel-le ugrál az óceánban/tavakban. Ha leesnek egy magas helyről,akkor nem sebződnek,mert a szárnyukkal csapkodnak,ezért lassabban esnek le.

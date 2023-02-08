@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 1,5
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A halak gyakori passzív teremtmények, melyek óceánokban és folyókban találhatóak meg. 4 féle hal van a játékban: tőkehal, lazac, gömbhal és trópusi hal.
 
 
-Viselkedés:
+Zsákmány: Valamennyi hal a saját fajtájával megegyező halat dob: nyers tőkehalat, nyers lazacot, gömbhalat vagy bohóchalat.
+
+
+Viselkedés: A tőkehalak, a lazacok és a trópusi halak csoportokban úsznak általában (maximum 9 tőkehal, 6 lazac és 9 a trópusi hal egy fajtájából csoportonként).

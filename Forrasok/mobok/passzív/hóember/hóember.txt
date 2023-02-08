@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 2
+Sebzés(szívben): 0
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Megépítéséhez 2 hóblokk és 1 tök kell. Alulra kell a 2 hóblokkot és arra rá a tököt.
 
 
-Viselkedés:
+Zsákmány: Halálakor 10-15 hógolyót ad.
+
+
+Viselkedés:  Hógolyókat dobál őrlánokra, bevégzőkre, szellemekre, boszorkányokra, bárányokra. A játékosra is dobálhat hógolyókat.

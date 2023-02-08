@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 1,5
+Sebzés(szívben): 1-2
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Óceánokban és folyókban találhatóak meg. 
 
 
-Viselkedés:
+Zsákmány: Gömbhalat dob.
+
+
+Viselkedés: A gömbhalak, mikor egy játékos van a közelükben Fejjel a tetjén megközelíti őket, felfújják magukat. A gömbhalak passzív teremtmények, de ha egy felfúvódotthoz a játékos túl közel kerül, 7 másodperc Méreg hatást kap, és ha meg is érinti a tüskéit, akkor az még azon kívül fogja sebezni a játékost.
