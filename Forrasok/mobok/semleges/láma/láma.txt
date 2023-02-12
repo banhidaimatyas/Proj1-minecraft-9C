@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 7,5-15
+Sebzés(szívben): 0.5
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Szavannás felföldön vagy szavannán találhatóak.
 
 
-Viselkedés:
+Zsákmány: Felszerelésüket (láda, szőnyeg) eldobják, emellett bőrt dobnak.
+
+
+Viselkedés: Ha a játékos megtámadja őket, köpésükkel próbálják majd elkergetni a játékost.

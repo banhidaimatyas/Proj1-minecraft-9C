@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 10
+Sebzés(szívben): 1-3,5
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Sűrűn előfordul a végben és a netherben, és ritkán a normál világban 7 vagy kevesebb világossági szinten. 
 
 
-Viselkedés:
+Zsákmány: Zsákmányként ha szerencsések vagyunk 1 véggyöngyöt kapunk az 5 tapasztalat mellé.
+
+
+Viselkedés: Az enderman akkor is támad, ha a játékosok csak nézik őket (rajtuk van a célkereszt). Akár 64 blokk távolságból is észreveszi a provokációt. Kivétel, ha a játékos faragott tököt visel.
