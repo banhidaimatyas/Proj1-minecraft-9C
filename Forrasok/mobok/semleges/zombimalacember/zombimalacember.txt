@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 10
+Sebzés(szívben): 1,5-6
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Netherben fordulnak elő.
 
 
-Viselkedés:
+Zsákmány: Felszerelésüket, aranyrudat, aranyrögöt, rohadthúst dobhatnak.
+
+
+Viselkedés: Ha a játékos a csordájuk közelében akár egyet is megüt, akkor az egész csorda ellenségévé válik. 

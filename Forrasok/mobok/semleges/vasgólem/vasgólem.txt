@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 50
+Sebzés(szívben): 3,5-10
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: Falvakban található, de ha T alakú formát építünk és a tetejére tököt rakunk, akkor készíthetünk egyet.
 
 
-Viselkedés:
+Zsákmány: 3-5 vasrudat és 0-2 rózsát dob.
+
+
+Viselkedés: Soha nem támadja meg a játékost, ha ő készíti, de a Falvakban termett vasgólem megtámadja a játékost, ha egy Falusit, vagy a vasgólemet provokálja. A vasgólem minden agresszív, semleges mobot támad, kivéve a Creepereket, , és Szellemeket.

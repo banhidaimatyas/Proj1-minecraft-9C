@@ -1,10 +1,10 @@
-Életerő(szívben): 
-Sebzés(szívben): 
+Életerő(szívben): 5
+Sebzés(szívben): 2
 
-Keletkezés:
-
-
-Zsákmány:
+Keletkezés: A legtöbb fajta erőben előfordulnak. 
 
 
-Viselkedés:
+Zsákmány: Csak tapasztalatot dobnak.
+
+
+Viselkedés: Ha a játékos provokálja őket, az egész kaptár méhéi rátámadnak. Miután egy méhe egyet sebzett, kis idő múlva ő is meghal. 
