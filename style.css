@@ -13,74 +13,95 @@ body {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/tulipán.webp);
-  background-size: 29vh;
+  background-size: 29.1vh;
   background-repeat: no-repeat;
   z-index: 0;
   margin-top: 29vh;
   position: relative;
   background-position: 10vh;
-  
 }
 .fű {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/fű.webp);
-  background-size: 29vh;
+  background-size: 29.1vh;
   background-repeat: repeat;
   position: absolute;
- 
-  z-index: -1;
 
+  z-index: -1;
 }
 
 .fföld {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/fföld.webp);
-  background-size: 29vh;
+  background-size: 29.1vh;
 }
 .föld {
   width: 100%;
   height: 87vh;
   background-image: url(Forrasok/kepek/háttér/föld.webp);
-  background-size: 29vh;
+  background-size: 29.1vh;
 }
 .föld-kő {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/föld-kő.png);
-  background-size: 29vh;
+  background-size: 29.1vh;
 }
 .kő {
   width: 100%;
   height: 87vh;
   background-image: url(Forrasok/kepek/háttér/kő.webp);
-  background-size: 29vh;
+  background-size: 29.1vh;
 }
 .kő-dkő {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/kő-dkő.png);
-  background-size: 29vh;
+  background-size: 29.1vh;
 }
 .dkő {
   width: 100%;
   height: 87vh;
   background-image: url(Forrasok/kepek/háttér/dkő.webp);
-  background-size: 29vh;
+  background-size: 29.1vh;
 }
 .dkő-bedrock {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/dkő-bedrock.png);
-  background-size: 29vh;
+  background-size: 29.1vh;
 }
 .bedrock {
   width: 100%;
   height: 58vh;
   background-image: url(Forrasok/kepek/háttér/bedrock.webp);
-  background-size: 29vh;
-  
+  background-size: 29.1vh;
+}
+.rkő {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Forrasok/kepek/háttér/rkő.webp);
+  background-size: 29.1vh;
+}
+.tölgydeszka {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Forrasok/kepek/háttér/tölgydeszka.webp);
+  background-size: 29.1vh;
+}
+.fenyődeszka {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Forrasok/kepek/háttér/fenyődeszka.webp);
+  background-size: 29.1vh;
+}
+.könyv {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Forrasok/kepek/háttér/könyv.webp);
+  background-size: 29.1vh;
 }
 
 @keyframes háttér {
@@ -118,8 +139,8 @@ body {
   position: fixed;
   width: 100%;
   opacity: 1;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 .navbar-brand {
   left: 0;
