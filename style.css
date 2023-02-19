@@ -182,3 +182,67 @@ body {
   -webkit-transform-origin: left;
   transform-origin: left;
 }
+
+/* quiz */
+/* (A) WRAPPER */
+
+#quizWrap {
+  height: 250px;
+  /* RECOMMENDED FIXED HEIGHT IF YOU HAVE CONTENT BELOW THE QUIZ */
+  /* SO THAT PAGE LAYOUT DOES NOT "JUMP" */
+  /* height: 250px; */
+}
+
+/* (B) QUESTION */
+#quizQn {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+  padding-left: 2vh;
+  
+  min-width: 300px;
+  background: #000000;
+  color: #fff;
+  font-size: 3vh;
+}
+
+/* (C) ANSWERS */
+#quizAns {
+  margin-top: 1vh;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+  margin-right: 1vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1vh;
+}
+#quizAns input[type=radio] { display: none; }
+#quizAns label {
+  background: #fafafa;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  font-size: 3vh;
+  cursor: pointer;
+  text-align: center;
+}
+#quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #2d8600;
+}
+#quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #f10707;
+}
+
+
+
+#quiz {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
