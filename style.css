@@ -184,39 +184,33 @@ body {
 }
 
 /* quiz */
-/* (A) WRAPPER */
 
 #quizWrap {
   height: 250px;
-  /* RECOMMENDED FIXED HEIGHT IF YOU HAVE CONTENT BELOW THE QUIZ */
-  /* SO THAT PAGE LAYOUT DOES NOT "JUMP" */
-  /* height: 250px; */
 }
 
-/* (B) QUESTION */
 #quizQn {
   padding-top: 3vh;
   padding-bottom: 3vh;
   padding-right: 2vw;
   padding-left: 2vh;
-  
+
   min-width: 300px;
   background: #000000;
   color: #fff;
   font-size: 3vh;
 }
 
-/* (C) ANSWERS */
 #quizAns {
-  margin-top: 1vh;
   margin-left: 1vw;
-  margin-bottom: 1vh;
   margin-right: 1vw;
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 1vh;
+  grid-gap: 0.3vw;
 }
-#quizAns input[type=radio] { display: none; }
+#quizAns input[type="radio"] {
+  display: none;
+}
 #quizAns label {
   background: #fafafa;
   padding-bottom: 2vh;
@@ -236,13 +230,10 @@ body {
   border: 1px solid #f10707;
 }
 
-
-
 #quiz {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
