@@ -196,7 +196,7 @@ body {
   padding-left: 2vh;
 
   min-width: 300px;
-  background: #000000;
+  background: #4a5cc0;
   color: #fff;
   font-size: 3vh;
 }
@@ -222,11 +222,11 @@ body {
   text-align: center;
 }
 #quizAns label.correct {
-  background: #d8ffc4;
+  background: #9ff375;
   border: 1px solid #2d8600;
 }
 #quizAns label.wrong {
-  background: #ffe8e8;
+  background: #f17474;
   border: 1px solid #f10707;
 }
 
@@ -236,4 +236,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.oldallap {
+  position: absolute;
+  z-index: 0;
+  background-color: #000000;
+  width: 60%;
+  height: 100%;
+  opacity: 0.40;
+  margin-left: 20%;
+  margin-right: 20%;
 }
