@@ -194,11 +194,12 @@ body {
   padding-bottom: 3vh;
   padding-right: 2vw;
   padding-left: 2vh;
-
   min-width: 300px;
   background: #4a5cc0;
   color: #fff;
   font-size: 3vh;
+  font-family: cursive;
+  text-align: center;
 }
 
 #quizAns {
@@ -206,17 +207,16 @@ body {
   margin-right: 1vw;
   display: grid;
   grid-template-columns: auto auto;
+  margin-top: 0.3vw;
   grid-gap: 0.3vw;
+  font-family: cursive;
+  text-align: center;
 }
 #quizAns input[type="radio"] {
   display: none;
 }
 #quizAns label {
-  background: #fafafa;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
-  padding-right: 2vw;
-  padding-left: 2vw;
+  background: #f5efef;
   font-size: 3vh;
   cursor: pointer;
   text-align: center;
@@ -230,7 +230,7 @@ body {
   border: 1px solid #f10707;
 }
 
-#quiz {
+#quizelr {
   margin: 0;
   position: absolute;
   top: 50%;
