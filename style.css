@@ -184,6 +184,7 @@ body {
 }
 
 
+
 .bevezetés {
   margin-left: 10%;
   margin-right: 10%;
@@ -216,3 +217,70 @@ body {
   width: 80%;
   z-index: 1;
 }
+
+/* quiz */
+
+#quizWrap {
+  height: 250px;
+}
+
+#quizQn {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+  padding-left: 2vh;
+  min-width: 300px;
+  background: #4a5cc0;
+  color: #fff;
+  font-size: 3vh;
+  font-family: cursive;
+  text-align: center;
+}
+
+#quizAns {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 0.3vw;
+  grid-gap: 0.3vw;
+  font-family: cursive;
+  text-align: center;
+}
+#quizAns input[type="radio"] {
+  display: none;
+}
+#quizAns label {
+  background: #f5efef;
+  font-size: 3vh;
+  cursor: pointer;
+  text-align: center;
+}
+#quizAns label.correct {
+  background: #9ff375;
+  border: 1px solid #2d8600;
+}
+#quizAns label.wrong {
+  background: #f17474;
+  border: 1px solid #f10707;
+}
+
+#quizelr {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.oldallap {
+  position: absolute;
+  z-index: 0;
+  background-color: #000000;
+  width: 60%;
+  height: 100%;
+  opacity: 0.40;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
