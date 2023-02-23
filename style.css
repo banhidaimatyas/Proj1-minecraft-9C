@@ -183,8 +183,6 @@ body {
   transform-origin: left;
 }
 
-
-
 .bevezetés {
   margin-left: 10%;
   margin-right: 10%;
@@ -279,8 +277,15 @@ body {
   background-color: #000000;
   width: 60%;
   height: 100%;
-  opacity: 0.40;
+  opacity: 0.4;
   margin-left: 20%;
   margin-right: 20%;
 }
 
+/* kártyák */
+.kartya {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  max-width: max-content;
+}
