@@ -100,6 +100,8 @@ var quiz = {
       label.dataset.idx = i;
       label.addEventListener("click", () => {
         quiz.select(label);
+        audio.play();
+        
       });
       quiz.hAns.appendChild(label);
     }
