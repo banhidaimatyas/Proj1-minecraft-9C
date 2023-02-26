@@ -380,9 +380,7 @@ body {
   top: 20%;
   max-width: max-content;
 }
-.card-text {
-  font-size: 8px;
-}
+
 #info1,
 #info2,
 #info3,
@@ -425,3 +423,18 @@ body {
 #info40 {
   display: none;
 }
+
+button {
+  border: #000000 solid 1px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: white;
+  background-color: #000000;
+  font-family: cursive;
+}
+.card-text {
+  font-size: 2vh;
+}
+.card-title {
+  font-size: 3vh;
+  }
