@@ -139,3 +139,14 @@ var quiz = {
   },
 };
 window.addEventListener("load", quiz.init);
+
+// kartyak
+
+function myFunction() {
+  var x = document.getElementById("sarkany");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

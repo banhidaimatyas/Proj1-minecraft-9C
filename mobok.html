@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="jsscript.js"></script>
     <link rel="icon" type="image/x-icon" href="Forrasok/kepek/favicon.ico" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -39,29 +40,32 @@
             <div class="card-body">
               <h4 class="card-title">Endsárkány</h4>
               <div class="card-text">
-                <p>Életerő: 100</p>
-                <p><b>Sebzés:</b> 1,5-7,5</p>
-                <b>Keletkezés:</b>
-                <p>
-                  A végzetsárkány csakis a végben terem és csak 1 darab van
-                  belőle.
-                </p>
-                <b>Zsákmány:</b>
-                <p>
-                  Ha legyőzted a sárkányt, akkor a legmagasabb XP jutalomban
-                  részesülsz, a halála helyén megjelenik a visszautat nyújtó
-                  portál, és a sárkánytojás is. A portálba lépve mielőtt
-                  visszajutsz, egy dialógust látsz majd. Ha legyőzted,
-                  végigvitted a Minecraftot, viszont a portálba ugrás után
-                  változatlanul tovább játszhatod a játékot.
-                </p>
-                <b>Viselkedés:</b>
-                <p>
-                  A végzetsárkány nehézségi szinttől függetlenül megtámad amint
-                  a végbe érkeztél. Ha megsebesült az egyik obszidiántornyon
-                  levő végzetkristály körül repül így feltölti az életét. A
-                  sárkány képes minden létező blokkot áttörni.
-                </p>
+                <button onclick="myFunction()">Információk</button>
+                <div id="sarkany">
+                  <p>Életerő: 100</p>
+                  <p><b>Sebzés:</b> 1,5-7,5</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A végzetsárkány csakis a végben terem és csak 1 darab van
+                    belőle.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Ha legyőzted a sárkányt, akkor a legmagasabb XP jutalomban
+                    részesülsz, a halála helyén megjelenik a visszautat nyújtó
+                    portál, és a sárkánytojás is. A portálba lépve mielőtt
+                    visszajutsz, egy dialógust látsz majd. Ha legyőzted,
+                    végigvitted a Minecraftot, viszont a portálba ugrás után
+                    változatlanul tovább játszhatod a játékot.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A végzetsárkány nehézségi szinttől függetlenül megtámad amint
+                    a végbe érkeztél. Ha megsebesült az egyik obszidiántornyon
+                    levő végzetkristály körül repül így feltölti az életét. A
+                    sárkány képes minden létező blokkot áttörni.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-black text-center">
                 <small class="text-muted">Főellenség</small>
@@ -1626,5 +1630,6 @@
       const audio = new Audio();
       audio.src = "Forrasok/hangok/minecraft-click.mp3";
     </script>
+
   </body>
 </html>
