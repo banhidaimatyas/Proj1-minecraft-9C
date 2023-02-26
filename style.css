@@ -383,3 +383,37 @@ body {
 .card-text {
   font-size: 8px;
 }
+
+/* dropdown menü */
+.dropdown-menu {
+  background-color: rgb(34, 34, 34);
+  border-radius: 10px;
+  display: none;
+  animation-name: dropdown;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+.dropdown-item {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transition: 0.5s;
+}
+.dropdown-item:active {
+  background-color: #9a9a9a;
+}
+.dropdown-item:hover {
+  background-color: #2d8600;
+  color: white;
+}
+
+@keyframes dropdown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
