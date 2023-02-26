@@ -101,7 +101,9 @@ var quiz = {
       label.addEventListener("click", () => {
         quiz.select(label);
       });
+      audio.play();
       quiz.hAns.appendChild(label);
+      
     }
   },
 
