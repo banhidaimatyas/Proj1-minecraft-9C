@@ -40,8 +40,8 @@
             <div class="card-body">
               <h4 class="card-title">Endsárkány</h4>
               <div class="card-text">
-                <button onclick="myFunction()">Információk</button>
-                <div id="sarkany">
+                <button onclick="info1()">Információk</button>
+                <div id="info1">
                   <p>Életerő: 100</p>
                   <p><b>Sebzés:</b> 1,5-7,5</p>
                   <b>Keletkezés:</b>
@@ -83,26 +83,26 @@
             <div class="card-body">
               <h4 class="card-title">Wither</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 150-300</p>
-                <p><b>Sebzés:</b> 2,5-6</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Nem terem természetesen, hanem a játékosnak kell megépíteni
-                  lélekhomokból és withercsontváz koponyából
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Halálakor egy alvilági csillagot dob, valamint 50
-                  tapasztalatot dob.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Koponyákat lőnek ki, amik úgy néznek ki, mint a wither egyik
-                  feje. Ha eltalálja a játékost sorvadás effektet kap.
-                </p>
+                <button onclick="info2()">Információk</button>
+                <div id="info2">
+                  <p><b>Életerő:</b> 150-300</p>
+                  <p><b>Sebzés:</b> 2,5-6</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Nem terem természetesen, hanem a játékosnak kell megépíteni
+                    lélekhomokból és withercsontváz koponyából
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Halálakor egy alvilági csillagot dob, valamint 50
+                    tapasztalatot dob.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Koponyákat lőnek ki, amik úgy néznek ki, mint a wither egyik
+                    feje. Ha eltalálja a játékost sorvadás effektet kap.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-black text-center">
                 <small class="text-muted">Főellenség</small>
@@ -120,33 +120,33 @@
             <div class="card-body">
               <h4 class="card-title">Creeper</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 10</p>
-                <p><b>Sebzés:</b> 25,5 (töltve 85)</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Creeperek bárhol keletkezhetnek a világban kivéve gomba
-                  szigeteken és a mély sötétségben.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Ha egy creepert egy játékos megöl akkor az 5 tapasztalatpontot
-                  kap belőle, továbbá akár 2 puskaport. Ha egy csontváz öl meg
-                  eggyet akkor van esély rá hogy hanglemezt dobjon.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha a játékostól 3 blokkon belül egy creeper abbahagyja a
-                  mozgást, sziszeg, villog és kitágul, majd 1,5 másodperc múlva
-                  felrobban, tönkretéve a blokkokat a területen, valamint
-                  jelentősen megrongálva a játékost. A creeper detonációja
-                  leállítható, ha a játékos elhagyja a robbanás sugarát. A
-                  feltöltött creeper jelentősen megnövelt robbanóképességgel
-                  rendelkezik. Feltöltött creeper csak akkor jön létre, ha egy
-                  normál creeper négy blokkján belül becsap a villám.
-                </p>
+                <button onclick="info3()">Információk</button>
+                <div id="info3">
+                  <p><b>Életerő:</b> 10</p>
+                  <p><b>Sebzés:</b> 25,5 (töltve 85)</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Creeperek bárhol keletkezhetnek a világban kivéve gomba
+                    szigeteken és a mély sötétségben.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Ha egy creepert egy játékos megöl akkor az 5 tapasztalatpontot
+                    kap belőle, továbbá akár 2 puskaport. Ha egy csontváz öl meg
+                    eggyet akkor van esély rá hogy hanglemezt dobjon.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha a játékostól 3 blokkon belül egy creeper abbahagyja a
+                    mozgást, sziszeg, villog és kitágul, majd 1,5 másodperc múlva
+                    felrobban, tönkretéve a blokkokat a területen, valamint
+                    jelentősen megrongálva a játékost. A creeper detonációja
+                    leállítható, ha a játékos elhagyja a robbanás sugarát. A
+                    feltöltött creeper jelentősen megnövelt robbanóképességgel
+                    rendelkezik. Feltöltött creeper csak akkor jön létre, ha egy
+                    normál creeper négy blokkján belül becsap a villám.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -167,36 +167,36 @@
             <div class="card-body">
               <h4 class="card-title">Csontváz</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 10</p>
-                <p><b>Sebzés:</b> 3-4</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A csontvázak 0-ás fényszinten , 4-es vagy 5-ös csoportokban
-                  jönnek létre a a világban, és 7-es vagy annál alacsonyabb
-                  fényszinten is megjelenhetnek az alvilágban. ‌
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Ha egy csontvázat egy játékos megöl akkor az 5
-                  tapasztalatpontot kap belőle. Ha a csontváz felszereléssel is
-                  rendelkezett az extra 1-3 tapasztalatpontot jelent. A csontváz
-                  ezenkívül csontot, nyilat, felszerelését dobhatja el.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Amikor a célpontt van 15 blokkon belül, tiszta rálátás mellett
-                  elkezdenek lövöldözni nyilakkal 2 másodpercenként egyszer. Ha
-                  a játékos elhagyja a 15 blokkos sugarat, a csontvázak
-                  feltöltött íjjal várnak néhány másodpercet, és akkor lőnek,
-                  amikor a játékos ismét hatótávolságon belülre kerül. A
-                  csontvázak hajnalban elégnek, amikor a Nap 15 fokkal vagy
-                  magasabban van a föld felett. Néhány csontváz képes felszedni
-                  a földről leejtett tárgyakat. A zombikkal ellentétben azonban
-                  csak fegyvereket vagy páncélokat vesznek fel.
-                </p>
+                <button onclick="info4()">Információk</button>
+                <div id="info4">
+                  <p><b>Életerő:</b> 10</p>
+                  <p><b>Sebzés:</b> 3-4</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A csontvázak 0-ás fényszinten , 4-es vagy 5-ös csoportokban
+                    jönnek létre a a világban, és 7-es vagy annál alacsonyabb
+                    fényszinten is megjelenhetnek az alvilágban. ‌
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Ha egy csontvázat egy játékos megöl akkor az 5
+                    tapasztalatpontot kap belőle. Ha a csontváz felszereléssel is
+                    rendelkezett az extra 1-3 tapasztalatpontot jelent. A csontváz
+                    ezenkívül csontot, nyilat, felszerelését dobhatja el.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Amikor a célpontt van 15 blokkon belül, tiszta rálátás mellett
+                    elkezdenek lövöldözni nyilakkal 2 másodpercenként egyszer. Ha
+                    a játékos elhagyja a 15 blokkos sugarat, a csontvázak
+                    feltöltött íjjal várnak néhány másodpercet, és akkor lőnek,
+                    amikor a játékos ismét hatótávolságon belülre kerül. A
+                    csontvázak hajnalban elégnek, amikor a Nap 15 fokkal vagy
+                    magasabban van a föld felett. Néhány csontváz képes felszedni
+                    a földről leejtett tárgyakat. A zombikkal ellentétben azonban
+                    csak fegyvereket vagy páncélokat vesznek fel.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -216,29 +216,29 @@
             <div class="card-body">
               <h4 class="card-title">Hoglin</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 20</p>
-                <p><b>Sebzés:</b> 1,25-6</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  3-4 fős csordákban, kramazsin erdőkben találhatóak.
-                  Keletkezésük nem függ a fény szintjétől, sem a legtöbb
-                  blokktól.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Ha egy játékos megöl egy hoglint akkor az 5 tapasztalatpontot
-                  kap belőle. A hoglin ezenfelül disznóhúst, bőrt ejthet le.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Egyes gombafajokat és az alvilági átjárót kerülik. Mély
-                  vízben, mivel úszni nem tudnak, megfulladnak, lávában pedig
-                  elégnek. Annak ellenére, hogy ellenségesek meg lehet őket
-                  nyergelni.
-                </p>
+                <button onclick="info5()">Információk</button>
+                <div id="info5">
+                  <p><b>Életerő:</b> 20</p>
+                  <p><b>Sebzés:</b> 1,25-6</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    3-4 fős csordákban, kramazsin erdőkben találhatóak.
+                    Keletkezésük nem függ a fény szintjétől, sem a legtöbb
+                    blokktól.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Ha egy játékos megöl egy hoglint akkor az 5 tapasztalatpontot
+                    kap belőle. A hoglin ezenfelül disznóhúst, bőrt ejthet le.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Egyes gombafajokat és az alvilági átjárót kerülik. Mély
+                    vízben, mivel úszni nem tudnak, megfulladnak, lávában pedig
+                    elégnek. Annak ellenére, hogy ellenségesek meg lehet őket
+                    nyergelni.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -256,25 +256,25 @@
             <div class="card-body">
               <h4 class="card-title">Warden</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 250</p>
-                <p><b>Sebzés:</b> 3-22,5</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Sculk Shreiker blokk sokszori aktivitására a Sculk mohából
-                  mászik elő. Mélysötét városokban és Ősi városokban találhatunk
-                  rájuk.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>Halálakor 5 Xp-t és egy Sculk katalizátort dob el.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha meghallja, hogy valami motoszkál a közelben akkor előmászik
-                  a földből, hogy elpusztítsa. Ha a Warden a közelben van, akkor
-                  a fényforrások villogni kezdenek.
-                </p>
+                <button onclick="info6()">Információk</button>
+                <div id="info6">
+                  <p><b>Életerő:</b> 250</p>
+                  <p><b>Sebzés:</b> 3-22,5</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Sculk Shreiker blokk sokszori aktivitására a Sculk mohából
+                    mászik elő. Mélysötét városokban és Ősi városokban találhatunk
+                    rájuk.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>Halálakor 5 Xp-t és egy Sculk katalizátort dob el.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha meghallja, hogy valami motoszkál a közelben akkor előmászik
+                    a földből, hogy elpusztítsa. Ha a Warden a közelben van, akkor
+                    a fényforrások villogni kezdenek.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -295,20 +295,21 @@
             <div class="card-body">
               <h4 class="card-title">Szellem</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 10</p>
-                <p><b>Sebzés:</b> 6</p>
-
-                <b>Keletkezés:</b>
-                <p>Az alvilágban a levegőben akadhatunk rájuk.</p>
-
-                <b>Zsákmány:</b>
-                <p>Kísértetkönnyet vagy puskaport dob.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha meglát tűzgolyókat lő feléd, ami meggyújtja és feldobbantja
-                  a körülötted lévő alvilágkövet.
-                </p>
+                <button onclick="info7()">Információk</button>
+                <div id="info7">
+                  
+                  <p><b>Életerő:</b> 10</p>
+                  <p><b>Sebzés:</b> 6</p>
+                  <b>Keletkezés:</b>
+                  <p>Az alvilágban a levegőben akadhatunk rájuk.</p>
+                  <b>Zsákmány:</b>
+                  <p>Kísértetkönnyet vagy puskaport dob.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha meglát tűzgolyókat lő feléd, ami meggyújtja és feldobbantja
+                    a körülötted lévő alvilágkövet.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -326,29 +327,29 @@
             <div class="card-body">
               <h4 class="card-title">Ezüstmoly</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 4</p>
-                <p><b>Sebzés:</b> 0,5</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Az ezüstmolyok törött, fertőzött blokkokban keletkeznek,
-                  amelyek erődökben, föld alatti hegyekbem és iglupincékben és
-                  erdei kastélyok hamis portálszobáiban keletkeznek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Ha egy ezüstmolyt egy játékos megöl akkor csak 5
-                  tapasztalatpontot kap belőle.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Az ezüstmolyok támadják a játékosokat, vasgólemeket és hívják
-                  a környéken lévő többi ezüstmolyt, amikor eltalálják őket.
-                  ezüstmoly útvonalat talál a játékos felé, és láthatja a
-                  játékost a falakon keresztül is.
-                </p>
+                <button onclick="info8()">Információk</button>
+                <div id="info8">
+                  <p><b>Életerő:</b> 4</p>
+                  <p><b>Sebzés:</b> 0,5</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Az ezüstmolyok törött, fertőzött blokkokban keletkeznek,
+                    amelyek erődökben, föld alatti hegyekbem és iglupincékben és
+                    erdei kastélyok hamis portálszobáiban keletkeznek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Ha egy ezüstmolyt egy játékos megöl akkor csak 5
+                    tapasztalatpontot kap belőle.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Az ezüstmolyok támadják a játékosokat, vasgólemeket és hívják
+                    a környéken lévő többi ezüstmolyt, amikor eltalálják őket.
+                    ezüstmoly útvonalat talál a játékos felé, és láthatja a
+                    játékost a falakon keresztül is.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -368,29 +369,29 @@
             <div class="card-body">
               <h4 class="card-title">Magmakocka</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 0,5-16</p>
-                <p><b>Sebzés:</b> 1,25-4,5</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Az alvilág összes területén előfordulhatnak. Teljeskörű
-                  tűzálló képeségük miatt akár magmán ia keletkezhetnek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  1-4 tapasztalatot dobhatnak, emellett kis eséllyel magmakrémet
-                  is adhatnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Fel-le ugrálva mozognak és amikor a levegőben vannak, egy
-                  pillanatra rétegekre nyílnak szét, amitől kissé rugószerűen
-                  néznek ki. Ekkor látható lesz a belsejükben lévő olvadt
-                  lávamag. Elsüllyednek a lávában és lassítja is őket, de nem
-                  fulladnak meg benne.
-                </p>
+                <button onclick="info9()">Információk</button>
+                <div id="info9">
+                  <p><b>Életerő:</b> 0,5-16</p>
+                  <p><b>Sebzés:</b> 1,25-4,5</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Az alvilág összes területén előfordulhatnak. Teljeskörű
+                    tűzálló képeségük miatt akár magmán ia keletkezhetnek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    1-4 tapasztalatot dobhatnak, emellett kis eséllyel magmakrémet
+                    is adhatnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Fel-le ugrálva mozognak és amikor a levegőben vannak, egy
+                    pillanatra rétegekre nyílnak szét, amitől kissé rugószerűen
+                    néznek ki. Ekkor látható lesz a belsejükben lévő olvadt
+                    lávamag. Elsüllyednek a lávában és lassítja is őket, de nem
+                    fulladnak meg benne.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -411,31 +412,31 @@
             <div class="card-body">
               <h4 class="card-title">Fantom</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 10</p>
-                <p><b>Sebzés:</b> 3</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Fantomok csak akkor jönnek létre ha az égbolt elérhető,
-                  éjszaka vagy vihar van és a játékos már eltöltött 3 alvás
-                  nélküli napot. Ha minden feltétel teljesül, egy fantomcsoport
-                  megpróbál 20–34 blokknon belül a játékos felett megjelenni.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Ha egy fantomot egy játékos megöl akkor az 5 tapasztalatpontot
-                  kap belőle. Egy fantom még dobhat akár famtommembránt is.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A fantomok körkörös mintázatban repülnek a játékostól nem
-                  messze, miközben szürke füstöt hagynak maguk után. Mozgási
-                  sebességük az egyik leggyorsabb a mobok közül, akár 20 blokk
-                  másodpercenként. A fantomok 10-20 másodpercenként egyszer‌
-                  gyorsan lecsapnak a játékosra és megbróbálják megharapni.
-                </p>
+                <button onclick="info10()">Információk</button>
+                <div id="info10">
+                  <p><b>Életerő:</b> 10</p>
+                  <p><b>Sebzés:</b> 3</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Fantomok csak akkor jönnek létre ha az égbolt elérhető,
+                    éjszaka vagy vihar van és a játékos már eltöltött 3 alvás
+                    nélküli napot. Ha minden feltétel teljesül, egy fantomcsoport
+                    megpróbál 20–34 blokknon belül a játékos felett megjelenni.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Ha egy fantomot egy játékos megöl akkor az 5 tapasztalatpontot
+                    kap belőle. Egy fantom még dobhat akár famtommembránt is.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A fantomok körkörös mintázatban repülnek a játékostól nem
+                    messze, miközben szürke füstöt hagynak maguk után. Mozgási
+                    sebességük az egyik leggyorsabb a mobok közül, akár 20 blokk
+                    másodpercenként. A fantomok 10-20 másodpercenként egyszer‌
+                    gyorsan lecsapnak a játékosra és megbróbálják megharapni.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -453,24 +454,24 @@
             <div class="card-body">
               <h4 class="card-title">Nyálka</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 0,5-8</p>
-                <p><b>Sebzés:</b> 0-6</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  16. vagy azalatt lévő szinten található meg. Továbbá mocsárban
-                  este is keletkezhetnek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>Megölésekor nyálkagolyót dobhat 1-4 tapasztalat mellett.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A nyálkák lassan, ugrálással mozognak. A többi szörnyhöz
-                  hasonlóan, ha 16 kockányira állsz tőle, megtámad. A nyálkák
-                  tudnak létrát mászni.
-                </p>
+                <button onclick="info11()">Információk</button>
+                <div id="info11">
+                  <p><b>Életerő:</b> 0,5-8</p>
+                  <p><b>Sebzés:</b> 0-6</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    16. vagy azalatt lévő szinten található meg. Továbbá mocsárban
+                    este is keletkezhetnek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>Megölésekor nyálkagolyót dobhat 1-4 tapasztalat mellett.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A nyálkák lassan, ugrálással mozognak. A többi szörnyhöz
+                    hasonlóan, ha 16 kockányira állsz tőle, megtámad. A nyálkák
+                    tudnak létrát mászni.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -488,26 +489,26 @@
             <div class="card-body">
               <h4 class="card-title">Zombi</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 10</p>
-                <p><b>Sebzés:</b> 1,25-2,25</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A zombik gyakran 2-6-os csoportokban jelennek meg a sötétben.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Rohadthús és tapsztalat mellett, vasat répát, burgonyát is
-                  dobhatnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A zombik hajnalban lángra gyúlnak, azonban vízben nem
-                  gyulladnak meg. Képesek a falusiakat zombi falusivá
-                  változtatni.
-                </p>
+                <button onclick="info12()">Információk</button>
+                <div id="info12">
+                  <p><b>Életerő:</b> 10</p>
+                  <p><b>Sebzés:</b> 1,25-2,25</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A zombik gyakran 2-6-os csoportokban jelennek meg a sötétben.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Rohadthús és tapsztalat mellett, vasat répát, burgonyát is
+                    dobhatnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A zombik hajnalban lángra gyúlnak, azonban vízben nem
+                    gyulladnak meg. Képesek a falusiakat zombi falusivá
+                    változtatni.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -528,27 +529,27 @@
             <div class="card-body">
               <h4 class="card-title">Őrszem</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 15</p>
-                <p><b>Sebzés:</b> 4-9</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Az őrszem a vízalatti templomok környékén járőrözik az mély
-                  óceánban.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Az őrszemek nyers halat, nyers lazacot és trópusi halat dobnak
-                  zsákmányul. Szerezhető tőlük prizmarinkristály és prizmarin
-                  szilánk is.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Az őrszem bénító sugarakat képes szórni az arcából, mely sebzi
-                  a játékost. Ellenségeinek tekinti a tintahalakat is.
-                </p>
+                <button onclick="info13()">Információk</button>
+                <div id="info13">
+                  <p><b>Életerő:</b> 15</p>
+                  <p><b>Sebzés:</b> 4-9</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Az őrszem a vízalatti templomok környékén járőrözik az mély
+                    óceánban.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Az őrszemek nyers halat, nyers lazacot és trópusi halat dobnak
+                    zsákmányul. Szerezhető tőlük prizmarinkristály és prizmarin
+                    szilánk is.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Az őrszem bénító sugarakat képes szórni az arcából, mely sebzi
+                    a játékost. Ellenségeinek tekinti a tintahalakat is.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -566,34 +567,34 @@
             <div class="card-body">
               <h4 class="card-title">Boszorkány</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 13</p>
-                <p><b>Sebzés:</b> -sebzés bájitala 6, -mérgezés bájitala</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A boszorkányok a sötétben, mocsári kunyhókban , portyák során
-                  és amikor villám csap a falusiba , keletkeznek . Minden
-                  mocsárkunyhóban egy boszorkány és egy feketemacska születik a
-                  világba.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Ha egy boszorkányt egy játékos megöl akkor az 5
-                  tapasztalatpontot kap belőle. A boszorkány ezenfelül botokat ,
-                  üvegeket , izzókő-port , vöröskő-port , pókszemet , puskaport
-                  vagy cukrot ejthet le .
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A boszorkányok 85%-ban ellenállnak bizonyos mágikus
-                  forrásoknak.A boszorkány az első szintű bájitalokat használja
-                  a harcban , támadásban bájitalokat dobál, védekezésül pedig
-                  főzeteket iszik . Egy boszorkánynak végtelen bájitalkészlete
-                  van. A boszorkány tíz blokkon belül három másodperces
-                  időközönként dobja el bájitalait.
-                </p>
+                <button onclick="info14()">Információk</button>
+                <div id="info14">
+                  <p><b>Életerő:</b> 13</p>
+                  <p><b>Sebzés:</b> -sebzés bájitala 6, -mérgezés bájitala</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A boszorkányok a sötétben, mocsári kunyhókban , portyák során
+                    és amikor villám csap a falusiba , keletkeznek . Minden
+                    mocsárkunyhóban egy boszorkány és egy feketemacska születik a
+                    világba.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Ha egy boszorkányt egy játékos megöl akkor az 5
+                    tapasztalatpontot kap belőle. A boszorkány ezenfelül botokat ,
+                    üvegeket , izzókő-port , vöröskő-port , pókszemet , puskaport
+                    vagy cukrot ejthet le .
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A boszorkányok 85%-ban ellenállnak bizonyos mágikus
+                    forrásoknak.A boszorkány az első szintű bájitalokat használja
+                    a harcban , támadásban bájitalokat dobál, védekezésül pedig
+                    főzeteket iszik . Egy boszorkánynak végtelen bájitalkészlete
+                    van. A boszorkány tíz blokkon belül három másodperces
+                    időközönként dobja el bájitalait.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -611,23 +612,23 @@
             <div class="card-body">
               <h4 class="card-title">Őrláng</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 2,5</p>
-                <p><b>Sebzés:</b> 2-4,5</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Az alvilági erődökben akár kettesével vagy hármasával is
-                  fellelhetőek
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>Halálakor lángrudat dobhatnak.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Megsebzése után lángba borítja magát, és 3 tűzgömböt lő ki
-                  támadásonként. Ez az egyik mob amelyet a hógólem is sebez.
-                </p>
+                <button onclick="info15()">Információk</button>
+                <div id="info15">
+                  <p><b>Életerő:</b> 2,5</p>
+                  <p><b>Sebzés:</b> 2-4,5</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Az alvilági erődökben akár kettesével vagy hármasával is
+                    fellelhetőek
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>Halálakor lángrudat dobhatnak.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Megsebzése után lángba borítja magát, és 3 tűzgömböt lő ki
+                    támadásonként. Ez az egyik mob amelyet a hógólem is sebez.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -648,28 +649,29 @@
             <div class="card-body">
               <h4 class="card-title">Fosztogató</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 12</p>
-                <p><b>Sebzés:</b> 3</p>
-                <b>Keletkezés:</b>
-                <p>
-                  Előőrsökben (toronyszerű építmények) találhatóak. Emellett a
-                  játékoshoz közel is keletkezhetnek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Emerald mellett, akár könyvet, vas eszközöket, felszereléseket
-                  dobhatnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha nyílpuskát használnak, a legjobb, ha továbbra is közelharci
-                  fegyverrel támadsz rájuk, mivel időbe telik, amíg
-                  újratöltenek. Míg, ha fejszét használnak, a játékosoknak
-                  pajzzsal kell védeniük a támadásaikat, és meg kell találniuk a
-                  megfelelő időt a visszatámadásra.
-                </p>
+                <button onclick="info16()">Információk</button>
+                <div id="info16">
+                  <p><b>Életerő:</b> 12</p>
+                  <p><b>Sebzés:</b> 3</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Előőrsökben (toronyszerű építmények) találhatóak. Emellett a
+                    játékoshoz közel is keletkezhetnek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Emerald mellett, akár könyvet, vas eszközöket, felszereléseket
+                    dobhatnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha nyílpuskát használnak, a legjobb, ha továbbra is közelharci
+                    fegyverrel támadsz rájuk, mivel időbe telik, amíg
+                    újratöltenek. Míg, ha fejszét használnak, a játékosoknak
+                    pajzzsal kell védeniük a támadásaikat, és meg kell találniuk a
+                    megfelelő időt a visszatámadásra.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
@@ -687,21 +689,21 @@
             <div class="card-body">
               <h4 class="card-title">Axolotl</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 7</p>
-                <p><b>Sebzés:</b> 2</p>
-
-                <b>Keletkezés:</b>
-                <p>Lush swamp vagy cave biomban lehet velük találkozni.</p>
-
-                <b>Zsákmány:</b>
-                <p>Tapasztalaton kívül nem dobnak semmit.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Csak úgy úszkálnak, megtizedelve minden halat és ellenséget a
-                  környéken. Ahhoz, hogy kövessenek, egy trópusi halat kell
-                  tartanod a kezedben.
-                </p>
+                <button onclick="info17()">Információk</button>
+                <div id="info17">
+                  <p><b>Életerő:</b> 7</p>
+                  <p><b>Sebzés:</b> 2</p>
+                  <b>Keletkezés:</b>
+                  <p>Lush swamp vagy cave biomban lehet velük találkozni.</p>
+                  <b>Zsákmány:</b>
+                  <p>Tapasztalaton kívül nem dobnak semmit.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Csak úgy úszkálnak, megtizedelve minden halat és ellenséget a
+                    környéken. Ahhoz, hogy kövessenek, egy trópusi halat kell
+                    tartanod a kezedben.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -719,28 +721,28 @@
             <div class="card-body">
               <h4 class="card-title">Halak</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 1,5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A halak gyakori passzív teremtmények, melyek óceánokban és
-                  folyókban találhatóak meg. 4 féle hal van a játékban: tőkehal,
-                  lazac, gömbhal és trópusi hal.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Valamennyi hal a saját fajtájával megegyező halat dob: nyers
-                  tőkehalat, nyers lazacot, gömbhalat vagy bohóchalat.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A tőkehalak, a lazacok és a trópusi halak csoportokban úsznak
-                  általában (maximum 9 tőkehal, 6 lazac és 9 a trópusi hal egy
-                  fajtájából csoportonként).
-                </p>
+                <button onclick="info18()">Információk</button>
+                <div id="info18">
+                  <p><b>Életerő:</b> 1,5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A halak gyakori passzív teremtmények, melyek óceánokban és
+                    folyókban találhatóak meg. 4 féle hal van a játékban: tőkehal,
+                    lazac, gömbhal és trópusi hal.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Valamennyi hal a saját fajtájával megegyező halat dob: nyers
+                    tőkehalat, nyers lazacot, gömbhalat vagy bohóchalat.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A tőkehalak, a lazacok és a trópusi halak csoportokban úsznak
+                    általában (maximum 9 tőkehal, 6 lazac és 9 a trópusi hal egy
+                    fajtájából csoportonként).
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -761,27 +763,27 @@
             <div class="card-body">
               <h4 class="card-title">Falusi</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A falvak környékén és az épületek belsejében teremnek. Saját
-                  épületüknek megfelelő szerepet kapnak (pl.: templomban papok
-                  teremnek).
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>Nem dobnak semmit.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A falusiak látszólag véletlenszerűen vándorolnak a falvak
-                  környékén, azonban mozgásukat "HA" feltételek irányítják .A
-                  falusiak használni tudják az ajtókat így a házaikból képesek
-                  ki-bejárkálni. Ha esik az eső vagy éjszaka van vagy zombik
-                  üldözik őket a falusiak a házaikba menekülnek.
-                </p>
+                <button onclick="info19()">Információk</button>
+                <div id="info19">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A falvak környékén és az épületek belsejében teremnek. Saját
+                    épületüknek megfelelő szerepet kapnak (pl.: templomban papok
+                    teremnek).
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>Nem dobnak semmit.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A falusiak látszólag véletlenszerűen vándorolnak a falvak
+                    környékén, azonban mozgásukat "HA" feltételek irányítják .A
+                    falusiak használni tudják az ajtókat így a házaikból képesek
+                    ki-bejárkálni. Ha esik az eső vagy éjszaka van vagy zombik
+                    üldözik őket a falusiak a házaikba menekülnek.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -799,24 +801,24 @@
             <div class="card-body">
               <h4 class="card-title">Hóember</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 2</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Megépítéséhez 2 hóblokk és 1 tök kell. Alulra kell a 2
-                  hóblokkot és arra rá a tököt.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>Halálakor 10-15 hógolyót ad.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Hógolyókat dobál őrlánokra, bevégzőkre, szellemekre,
-                  boszorkányokra, bárányokra. A játékosra is dobálhat
-                  hógolyókat.
-                </p>
+                <button onclick="info20()">Információk</button>
+                <div id="info20">
+                  <p><b>Életerő:</b> 2</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Megépítéséhez 2 hóblokk és 1 tök kell. Alulra kell a 2
+                    hóblokkot és arra rá a tököt.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>Halálakor 10-15 hógolyót ad.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Hógolyókat dobál őrlánokra, bevégzőkre, szellemekre,
+                    boszorkányokra, bárányokra. A játékosra is dobálhat
+                    hógolyókat.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -834,20 +836,20 @@
             <div class="card-body">
               <h4 class="card-title">Papagáj</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 3</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>Dzsungelekben találhatóak.</p>
-
-                <b>Zsákmány:</b>
-                <p>Halálakor maximum 2 darab tollat dob.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Maggal és sütivel lehet megszelidíteni. A megszelidült papagáj
-                  követni fog téged, és képes felülni a válladra is.
-                </p>
+                <button onclick="info21()">Információk</button>
+                <div id="info21">
+                  <p><b>Életerő:</b> 3</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>Dzsungelekben találhatóak.</p>
+                  <b>Zsákmány:</b>
+                  <p>Halálakor maximum 2 darab tollat dob.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Maggal és sütivel lehet megszelidíteni. A megszelidült papagáj
+                    követni fog téged, és képes felülni a válladra is.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -868,26 +870,26 @@
             <div class="card-body">
               <h4 class="card-title">Bárány</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Fehér, fekete, szürke, világosszürke, barna és rózsaszínű
-                  természetesen is előfordulhat.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Meg lehet őket nyírni ollóval, (vagy szimplán megölni) hogy
-                  gyapjút kapjunk. Emellett brárnyhúst is dobnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Meg tudják enni a füvet, így visszenöveszthetik levágott
-                  szörüket.
-                </p>
+                <button onclick="info22()">Információk</button>
+                <div id="info22">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Fehér, fekete, szürke, világosszürke, barna és rózsaszínű
+                    természetesen is előfordulhat.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Meg lehet őket nyírni ollóval, (vagy szimplán megölni) hogy
+                    gyapjút kapjunk. Emellett brárnyhúst is dobnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Meg tudják enni a füvet, így visszenöveszthetik levágott
+                    szörüket.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -905,23 +907,24 @@
             <div class="card-body">
               <h4 class="card-title">Ló</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 7,5-15</p>
-                <p><b>Sebzés:</b> 0</p>
-                <b>Keletkezés:</b>
-                <p>
-                  A sima lovakra tisztáson találhatunk rá. Csontvázlovakká akkor
-                  változnak át mikor villám csak beléjük. Zombilovakat csak
-                  csalás segítségével csinálhatunk.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>0-2 bőrt dob.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A ló egy olyan mob melyet először szelídíteni kell és utána
-                  tudsz rajta a nyereg segítségével lovagolni.
-                </p>
+                <button onclick="info23()">Információk</button>
+                <div id="info23">
+                  <p><b>Életerő:</b> 7,5-15</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A sima lovakra tisztáson találhatunk rá. Csontvázlovakká akkor
+                    változnak át mikor villám csak beléjük. Zombilovakat csak
+                    csalás segítségével csinálhatunk.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>0-2 bőrt dob.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A ló egy olyan mob melyet először szelídíteni kell és utána
+                    tudsz rajta a nyereg segítségével lovagolni.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -939,27 +942,27 @@
             <div class="card-body">
               <h4 class="card-title">Malac</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A malacok átlátszatlan, legalább 2 blokk magas levegőjű, 9-es,
-                  vagy magasabb fényességű fű blokkokon teremnek, a világ
-                  kezdésekor csürhékben teremnek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  A malacok 1-3 nyers sertésszeletet dobnak és 1-3 tapasztalat
-                  pontot adnak, ha meghalnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A malacok lovagló képes passzív mobok. Amikor ha malacba
-                  belecsap a villám, zombi malacemberré változik.
-                </p>
+                <button onclick="info24()">Információk</button>
+                <div id="info24">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A malacok átlátszatlan, legalább 2 blokk magas levegőjű, 9-es,
+                    vagy magasabb fényességű fű blokkokon teremnek, a világ
+                    kezdésekor csürhékben teremnek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    A malacok 1-3 nyers sertésszeletet dobnak és 1-3 tapasztalat
+                    pontot adnak, ha meghalnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A malacok lovagló képes passzív mobok. Amikor ha malacba
+                    belecsap a villám, zombi malacemberré változik.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -980,27 +983,27 @@
             <div class="card-body">
               <h4 class="card-title">Róka</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 1-1,5</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Tajgán, öreg tajgán, havas tajgán és hegyi erdőkben
-                  találhatóak.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Egyre csökkenő eséllyel dobhat: tollat, bőrt, búzát, tojást,
-                  nyúlbőrt, nyúllábat és smaragdot.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Farkasoktól, játékosoktól, jegesmedvéktől elszaladnak.
-                  Csirkékre, nyulakra, tőkehalra, lazacra vagy trópusi halakra
-                  vadásznak.
-                </p>
+                <button onclick="info25()">Információk</button>
+                <div id="info25">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 1-1,5</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Tajgán, öreg tajgán, havas tajgán és hegyi erdőkben
+                    találhatóak.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Egyre csökkenő eséllyel dobhat: tollat, bőrt, búzát, tojást,
+                    nyúlbőrt, nyúllábat és smaragdot.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Farkasoktól, játékosoktól, jegesmedvéktől elszaladnak.
+                    Csirkékre, nyulakra, tőkehalra, lazacra vagy trópusi halakra
+                    vadásznak.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1018,24 +1021,24 @@
             <div class="card-body">
               <h4 class="card-title">Tintahal</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  tintahalak bármilyen mélységű vízben bárhol megtalálhatóak.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>0-3 tintászsák halálakor.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Mozgás közben a tintahalak csápjai szétnyílnak és
-                  összezárulnak, mintha így löknék előre magukat. A tintahalak
-                  céltalanul úszkálnak, és maguktól nem lépnek interakcióba a
-                  játékossal.
-                </p>
+                <button onclick="info26()">Információk</button>
+                <div id="info26">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    tintahalak bármilyen mélységű vízben bárhol megtalálhatóak.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>0-3 tintászsák halálakor.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Mozgás közben a tintahalak csápjai szétnyílnak és
+                    összezárulnak, mintha így löknék előre magukat. A tintahalak
+                    céltalanul úszkálnak, és maguktól nem lépnek interakcióba a
+                    játékossal.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1053,28 +1056,28 @@
             <div class="card-body">
               <h4 class="card-title">Csirke</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 2</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A csirkék átlátszatlan, legalább 2 levegő blokk magasságú
-                  helyen, 9-es, vagy magasabb fényességű fű blokkokon teremnek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  A csirkék 0-2 tollat, 1 nyers csirkehúst és 1-3 tapasztalatot
-                  dobnak, ha meghalnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A csirkék céltalanul vándorolnak. Gyakori látvány, hogy pár
-                  csirke fel-le ugrál az óceánban/tavakban. Ha leesnek egy magas
-                  helyről,akkor nem sebződnek,mert a szárnyukkal
-                  csapkodnak,ezért lassabban esnek le.
-                </p>
+                <button onclick="info27()">Információk</button>
+                <div id="info27">
+                  <p><b>Életerő:</b> 2</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A csirkék átlátszatlan, legalább 2 levegő blokk magasságú
+                    helyen, 9-es, vagy magasabb fényességű fű blokkokon teremnek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    A csirkék 0-2 tollat, 1 nyers csirkehúst és 1-3 tapasztalatot
+                    dobnak, ha meghalnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A csirkék céltalanul vándorolnak. Gyakori látvány, hogy pár
+                    csirke fel-le ugrál az óceánban/tavakban. Ha leesnek egy magas
+                    helyről,akkor nem sebződnek,mert a szárnyukkal
+                    csapkodnak,ezért lassabban esnek le.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1095,28 +1098,28 @@
             <div class="card-body">
               <h4 class="card-title">Gombatehén</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A gombatehenek csak micélium blokkokon a gombasziget éghajlati
-                  övezetben teremnek, 4-8-as csordákban.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  A gombatehenek 0-2 bőrt, 1-3 nyers marhahúst (1-3 steaket, ha
-                  tűz által halnak meg) és 1-3 tapasztalat pontot dobnak, ha
-                  meghalnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A tehenek lassan és céltalanul sétálnak,néha felbőgnek. Ha
-                  leesnek egy magasabb helyről sebződnek. A vízben nem fulladnak
-                  meg, hanem a víz tetején lebegnek.
-                </p>
+                <button onclick="info28()">Információk</button>
+                <div id="info28">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A gombatehenek csak micélium blokkokon a gombasziget éghajlati
+                    övezetben teremnek, 4-8-as csordákban.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    A gombatehenek 0-2 bőrt, 1-3 nyers marhahúst (1-3 steaket, ha
+                    tűz által halnak meg) és 1-3 tapasztalat pontot dobnak, ha
+                    meghalnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A tehenek lassan és céltalanul sétálnak,néha felbőgnek. Ha
+                    leesnek egy magasabb helyről sebződnek. A vízben nem fulladnak
+                    meg, hanem a víz tetején lebegnek.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1134,22 +1137,23 @@
             <div class="card-body">
               <h4 class="card-title">Gömbhal</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 1,5</p>
-                <p><b>Sebzés:</b> 1-2</p>
-                <b>Keletkezés:</b>
-                <p>Óceánokban és folyókban találhatóak meg.</p>
-
-                <b>Zsákmány:</b>
-                <p>Gömbhalat dob.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A gömbhalak, mikor egy játékos van a közelükben Fejjel a
-                  tetjén megközelíti őket, felfújják magukat. A gömbhalak
-                  passzív teremtmények, de ha egy felfúvódotthoz a játékos túl
-                  közel kerül, 7 másodperc Méreg hatást kap, és ha meg is érinti
-                  a tüskéit, akkor az még azon kívül fogja sebezni a játékost.
-                </p>
+                <button onclick="info29()">Információk</button>
+                <div id="info29">
+                  <p><b>Életerő:</b> 1,5</p>
+                  <p><b>Sebzés:</b> 1-2</p>
+                  <b>Keletkezés:</b>
+                  <p>Óceánokban és folyókban találhatóak meg.</p>
+                  <b>Zsákmány:</b>
+                  <p>Gömbhalat dob.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A gömbhalak, mikor egy játékos van a közelükben Fejjel a
+                    tetjén megközelíti őket, felfújják magukat. A gömbhalak
+                    passzív teremtmények, de ha egy felfúvódotthoz a játékos túl
+                    közel kerül, 7 másodperc Méreg hatást kap, és ha meg is érinti
+                    a tüskéit, akkor az még azon kívül fogja sebezni a játékost.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1167,29 +1171,29 @@
             <div class="card-body">
               <h4 class="card-title">Tehén</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A tehenek átlátszatlan, legalább 2 blokk magas levegőjű, 9-es,
-                  vagy magasabb fényességű fű blokkokon teremnek. A tehenek
-                  csoportosan is teremhetnek, egy csoportban 4-8 darab is lehet
-                  belőlük.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  A felnőtt tehenek 0-2 bőrt, 1-3 nyers marhahúst és 1-3
-                  tapasztalatot dobnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A tehenek lassan és céltalanul sétálnak,néha felbőgnek. Ha
-                  leesnek egy magasabb helyről sebződnek. A vízben nem fulladnak
-                  meg, hanem a víz tetején lebegnek.
-                </p>
+                <div id="info30">
+                  <button onclick="info30()">Információk</button>
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A tehenek átlátszatlan, legalább 2 blokk magas levegőjű, 9-es,
+                    vagy magasabb fényességű fű blokkokon teremnek. A tehenek
+                    csoportosan is teremhetnek, egy csoportban 4-8 darab is lehet
+                    belőlük.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    A felnőtt tehenek 0-2 bőrt, 1-3 nyers marhahúst és 1-3
+                    tapasztalatot dobnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A tehenek lassan és céltalanul sétálnak,néha felbőgnek. Ha
+                    leesnek egy magasabb helyről sebződnek. A vízben nem fulladnak
+                    meg, hanem a víz tetején lebegnek.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1210,26 +1214,26 @@
             <div class="card-body">
               <h4 class="card-title">Macska</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A párducok világos narancssárga színű mobok fekete foltokkal.
-                  Szemük zöld.A macskánk három típusa van:a fekete,a sárga és a
-                  sziámi macska. A macska kisebb mint az ocelot. A párducok
-                  kizárólag dzsungbelban teremnek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>Nem dobnak semmit.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Általában elmenekülnek a játékos elől, de nyers hallal oda
-                  tudjuk csalogatni őket magunkhoz. A szelídítésük nem olyan
-                  egyszerű, mint a farkasoké.
-                </p>
+                <button onclick="info31()">Információk</button>
+                <div id="info31">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A párducok világos narancssárga színű mobok fekete foltokkal.
+                    Szemük zöld.A macskánk három típusa van:a fekete,a sárga és a
+                    sziámi macska. A macska kisebb mint az ocelot. A párducok
+                    kizárólag dzsungbelban teremnek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>Nem dobnak semmit.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Általában elmenekülnek a játékos elől, de nyers hallal oda
+                    tudjuk csalogatni őket magunkhoz. A szelídítésük nem olyan
+                    egyszerű, mint a farkasoké.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1247,25 +1251,25 @@
             <div class="card-body">
               <h4 class="card-title">Denevér</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 3</p>
-                <p><b>Sebzés:</b> 0</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  A denevérek 63. réteg alatt, átlátszatlan, 3-as, vagy kisebb
-                  fényességű tömör blokkokon teremnek.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>A denevérek nem dobnak semmit.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  A denevérek nagyon kicsik,kisebb,mint egy fél blokk. Véletlen
-                  szerűen felvinnyognak. Céltalanul repülnek, előnyben
-                  részesítve a keleti oldalt, néha elrepülnek a láva felett, és
-                  lángra kapnak.
-                </p>
+                <button onclick="info32()">Információk</button>
+                <div id="info32">
+                  <p><b>Életerő:</b> 3</p>
+                  <p><b>Sebzés:</b> 0</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    A denevérek 63. réteg alatt, átlátszatlan, 3-as, vagy kisebb
+                    fényességű tömör blokkokon teremnek.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>A denevérek nem dobnak semmit.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    A denevérek nagyon kicsik,kisebb,mint egy fél blokk. Véletlen
+                    szerűen felvinnyognak. Céltalanul repülnek, előnyben
+                    részesítve a keleti oldalt, néha elrepülnek a láva felett, és
+                    lángra kapnak.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
@@ -1283,24 +1287,24 @@
             <div class="card-body">
               <h4 class="card-title">Delfin</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 1,5-2,5</p>
-
-                <b>Keletkezés:</b>
-                <p>Minden nem fagyott óceánban megtalálható.</p>
-
-                <b>Zsákmány:</b>
-                <p>Halálakor 0-1 tőkehal szerezhető 1-3 tapasztalat mellett.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha egy játékos megüt agy delfint a Farkashoz hasonlóan támad.
-                  Ha a Delfin szárazföldön van két perc múlva elkezd sérülni,
-                  majd megfullad. Ha négy percig a víz alatt van szintén
-                  megfullad. A delfineket nyers hallal lehet etetni, hogy
-                  elvezessenek vízalatti romokhoz vagy elsüllyedt
-                  hajóroncsokhoz.
-                </p>
+                <button onclick="info33()">Információk</button>
+                <div id="info33">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 1,5-2,5</p>
+                  <b>Keletkezés:</b>
+                  <p>Minden nem fagyott óceánban megtalálható.</p>
+                  <b>Zsákmány:</b>
+                  <p>Halálakor 0-1 tőkehal szerezhető 1-3 tapasztalat mellett.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha egy játékos megüt agy delfint a Farkashoz hasonlóan támad.
+                    Ha a Delfin szárazföldön van két perc múlva elkezd sérülni,
+                    majd megfullad. Ha négy percig a víz alatt van szintén
+                    megfullad. A delfineket nyers hallal lehet etetni, hogy
+                    elvezessenek vízalatti romokhoz vagy elsüllyedt
+                    hajóroncsokhoz.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
@@ -1321,22 +1325,22 @@
             <div class="card-body">
               <h4 class="card-title">Zombimalac</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 10</p>
-                <p><b>Sebzés:</b> 1,5-6</p>
-
-                <b>Keletkezés:</b>
-                <p>Netherben fordulnak elő.</p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Felszerelésüket, aranyrudat, aranyrögöt, rohadthúst dobhatnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha a játékos a csordájuk közelében akár egyet is megüt, akkor
-                  az egész csorda ellenségévé válik.
-                </p>
+                <button onclick="info34()">Információk</button>
+                <div id="info34">
+                  <p><b>Életerő:</b> 10</p>
+                  <p><b>Sebzés:</b> 1,5-6</p>
+                  <b>Keletkezés:</b>
+                  <p>Netherben fordulnak elő.</p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Felszerelésüket, aranyrudat, aranyrögöt, rohadthúst dobhatnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha a játékos a csordájuk közelében akár egyet is megüt, akkor
+                    az egész csorda ellenségévé válik.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
@@ -1354,20 +1358,21 @@
             <div class="card-body">
               <h4 class="card-title">Méhe</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 5</p>
-                <p><b>Sebzés:</b> 2</p>
-                <b>Keletkezés:</b>
-                <p>A legtöbb fajta erőben előfordulnak.</p>
-
-                <b>Zsákmány:</b>
-                <p>Csak tapasztalatot dobnak.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha a játékos provokálja őket, az egész kaptár méhéi
-                  rátámadnak. Miután egy méhe egyet sebzett, kis idő múlva ő is
-                  meghal.
-                </p>
+                <button onclick="info35()">Információk</button>
+                <div id="info35">
+                  <p><b>Életerő:</b> 5</p>
+                  <p><b>Sebzés:</b> 2</p>
+                  <b>Keletkezés:</b>
+                  <p>A legtöbb fajta erőben előfordulnak.</p>
+                  <b>Zsákmány:</b>
+                  <p>Csak tapasztalatot dobnak.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha a játékos provokálja őket, az egész kaptár méhéi
+                    rátámadnak. Miután egy méhe egyet sebzett, kis idő múlva ő is
+                    meghal.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
@@ -1385,26 +1390,26 @@
             <div class="card-body">
               <h4 class="card-title">Piglin</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 8</p>
-                <p><b>Sebzés:</b> 1-4</p>
-
-                <b>Keletkezés:</b>
-                <p>Netherben élnek.</p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  A felnőtteknél 8,5% esély van arra, hogy a kezükben lévő
-                  fegyvert vagy páncélukat eldobják.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ellenségesek lesznek, ha a játékos nem visel legalább egy
-                  fajta aranyfelszerelést. A piglinekkel lehet
-                  cserekereskedelmet folytatni. Ez úgy működik, ha a játékos egy
-                  piglin elé kidob egy aranyrudat, az felszedi, megnézegeti és
-                  visszadob helyette valamit.
-                </p>
+                <button onclick="info36()">Információk</button>
+                <div id="info36">
+                  <p><b>Életerő:</b> 8</p>
+                  <p><b>Sebzés:</b> 1-4</p>
+                  <b>Keletkezés:</b>
+                  <p>Netherben élnek.</p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    A felnőtteknél 8,5% esély van arra, hogy a kezükben lévő
+                    fegyvert vagy páncélukat eldobják.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ellenségesek lesznek, ha a játékos nem visel legalább egy
+                    fajta aranyfelszerelést. A piglinekkel lehet
+                    cserekereskedelmet folytatni. Ez úgy működik, ha a játékos egy
+                    piglin elé kidob egy aranyrudat, az felszedi, megnézegeti és
+                    visszadob helyette valamit.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
@@ -1425,28 +1430,28 @@
             <div class="card-body">
               <h4 class="card-title">Enderman</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 10</p>
-                <p><b>Sebzés:</b> 1-3,5</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Sűrűn előfordul a végben és a netherben, és ritkán a normál
-                  világban 7 vagy kevesebb világossági szinten.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Zsákmányként ha szerencsések vagyunk 1 véggyöngyöt kapunk az 5
-                  tapasztalat mellé.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Az enderman akkor is támad, ha a játékosok csak nézik őket
-                  (rajtuk van a célkereszt). Akár 64 blokk távolságból is
-                  észreveszi a provokációt. Kivétel, ha a játékos faragott tököt
-                  visel.
-                </p>
+                <button onclick="info37()">Információk</button>
+                <div id="info37">
+                  <p><b>Életerő:</b> 10</p>
+                  <p><b>Sebzés:</b> 1-3,5</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Sűrűn előfordul a végben és a netherben, és ritkán a normál
+                    világban 7 vagy kevesebb világossági szinten.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Zsákmányként ha szerencsések vagyunk 1 véggyöngyöt kapunk az 5
+                    tapasztalat mellé.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Az enderman akkor is támad, ha a játékosok csak nézik őket
+                    (rajtuk van a célkereszt). Akár 64 blokk távolságból is
+                    észreveszi a provokációt. Kivétel, ha a játékos faragott tököt
+                    visel.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
@@ -1464,20 +1469,20 @@
             <div class="card-body">
               <h4 class="card-title">Farkas</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 4-10</p>
-                <p><b>Sebzés:</b> 1-2</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Általában az erdőkben, leginkább a tajga övezetben fordulnak
-                  elő.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>Nem dobnak semmit.</p>
-
-                <b>Viselkedés:</b>
-                <p>Szelídíthető mobok, szelídítve a játékost szolgálják.</p>
+                <button onclick="info38()">Információk</button>
+                <div id="info38">
+                  <p><b>Életerő:</b> 4-10</p>
+                  <p><b>Sebzés:</b> 1-2</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Általában az erdőkben, leginkább a tajga övezetben fordulnak
+                    elő.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>Nem dobnak semmit.</p>
+                  <b>Viselkedés:</b>
+                  <p>Szelídíthető mobok, szelídítve a játékost szolgálják.</p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
@@ -1495,25 +1500,25 @@
             <div class="card-body">
               <h4 class="card-title">Vasgólem</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 50</p>
-                <p><b>Sebzés:</b> 3,5-10</p>
-
-                <b>Keletkezés:</b>
-                <p>
-                  Falvakban található, de ha T alakú formát építünk és a
-                  tetejére tököt rakunk, akkor készíthetünk egyet.
-                </p>
-
-                <b>Zsákmány:</b>
-                <p>3-5 vasrudat és 0-2 rózsát dob.</p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Soha nem támadja meg a játékost, ha ő készíti, de a Falvakban
-                  termett vasgólem megtámadja a játékost, ha egy Falusit, vagy a
-                  vasgólemet provokálja. A vasgólem minden agresszív, semleges
-                  mobot támad, kivéve a Creepereket, , és Szellemeket.
-                </p>
+                <button onclick="info39()">Információk</button>
+                <div id="info39">
+                  <p><b>Életerő:</b> 50</p>
+                  <p><b>Sebzés:</b> 3,5-10</p>
+                  <b>Keletkezés:</b>
+                  <p>
+                    Falvakban található, de ha T alakú formát építünk és a
+                    tetejére tököt rakunk, akkor készíthetünk egyet.
+                  </p>
+                  <b>Zsákmány:</b>
+                  <p>3-5 vasrudat és 0-2 rózsát dob.</p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Soha nem támadja meg a játékost, ha ő készíti, de a Falvakban
+                    termett vasgólem megtámadja a játékost, ha egy Falusit, vagy a
+                    vasgólemet provokálja. A vasgólem minden agresszív, semleges
+                    mobot támad, kivéve a Creepereket, , és Szellemeket.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
@@ -1534,23 +1539,23 @@
             <div class="card-body">
               <h4 class="card-title">Láma</h4>
               <div class="card-text">
-                <p><b>Életerő:</b> 7,5-15</p>
-                <p><b>Sebzés:</b> 0.5</p>
-
-                <b>Keletkezés:</b>
-                <p>Szavannás felföldön vagy szavannán találhatóak.</p>
-
-                <b>Zsákmány:</b>
-                <p>
-                  Felszerelésüket (láda, szőnyeg) eldobják, emellett bőrt
-                  dobnak.
-                </p>
-
-                <b>Viselkedés:</b>
-                <p>
-                  Ha a játékos megtámadja őket, köpésükkel próbálják majd
-                  elkergetni a játékost.
-                </p>
+                <button onclick="info40()">Információk</button>
+                <div id="info40">
+                  <p><b>Életerő:</b> 7,5-15</p>
+                  <p><b>Sebzés:</b> 0.5</p>
+                  <b>Keletkezés:</b>
+                  <p>Szavannás felföldön vagy szavannán találhatóak.</p>
+                  <b>Zsákmány:</b>
+                  <p>
+                    Felszerelésüket (láda, szőnyeg) eldobják, emellett bőrt
+                    dobnak.
+                  </p>
+                  <b>Viselkedés:</b>
+                  <p>
+                    Ha a játékos megtámadja őket, köpésükkel próbálják majd
+                    elkergetni a játékost.
+                  </p>
+                </div>
               </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>

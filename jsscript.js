@@ -103,7 +103,6 @@ var quiz = {
       });
       audio.play();
       quiz.hAns.appendChild(label);
-      
     }
   },
 
@@ -142,11 +141,363 @@ window.addEventListener("load", quiz.init);
 
 // kartyak
 
-function myFunction() {
-  var x = document.getElementById("sarkany");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+function info1() {
+  var spolier = document.getElementById("info1");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
   } else {
-    x.style.display = "none";
+    spolier.style.display = "none";
+  }
+}
+function info2() {
+  var spolier = document.getElementById("info2");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info3() {
+  var spolier = document.getElementById("info3");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info4() {
+  var spolier = document.getElementById("info4");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info5() {
+  var spolier = document.getElementById("info5");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info6() {
+  var spolier = document.getElementById("info6");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info7() {
+  var spolier = document.getElementById("info7");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info8() {
+  var spolier = document.getElementById("info8");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info9() {
+  var spolier = document.getElementById("info9");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info10() {
+  var spolier = document.getElementById("info10");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info11() {
+  var spolier = document.getElementById("info11");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info12() {
+  var spolier = document.getElementById("info12");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info13() {
+  var spolier = document.getElementById("info13");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info14() {
+  var spolier = document.getElementById("info14");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info15() {
+  var spolier = document.getElementById("info15");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info16() {
+  var spolier = document.getElementById("info16");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info17() {
+  var spolier = document.getElementById("info17");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info18() {
+  var spolier = document.getElementById("info18");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info19() {
+  var spolier = document.getElementById("info19");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info20() {
+  var spolier = document.getElementById("info20");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info21() {
+  var spolier = document.getElementById("info21");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info22() {
+  var spolier = document.getElementById("info22");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info23() {
+  var spolier = document.getElementById("info23");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info24() {
+  var spolier = document.getElementById("info24");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info25() {
+  var spolier = document.getElementById("info25");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info26() {
+  var spolier = document.getElementById("info26");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info27() {
+  var spolier = document.getElementById("info27");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info28() {
+  var spolier = document.getElementById("info28");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info29() {
+  var spolier = document.getElementById("info29");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info30() {
+  var spolier = document.getElementById("info30");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info31() {
+  var spolier = document.getElementById("info31");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info32() {
+  var spolier = document.getElementById("info32");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info33() {
+  var spolier = document.getElementById("info33");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info34() {
+  var spolier = document.getElementById("info34");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info35() {
+  var spolier = document.getElementById("info35");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info36() {
+  var spolier = document.getElementById("info36");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info37() {
+  var spolier = document.getElementById("info37");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info38() {
+  var spolier = document.getElementById("info38");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info39() {
+  var spolier = document.getElementById("info39");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
+  }
+}
+function info40() {
+  var spolier = document.getElementById("info40");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "block";
+  } else {
+    spolier.style.display = "none";
   }
 }
