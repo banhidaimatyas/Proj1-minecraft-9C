@@ -20,16 +20,13 @@
     ></script>
   </head>
   <body>
-    <div
-      class="container kartya"
-      style="
-        background-image: url(Forrasok/kepek/háttér/tölgydeszka.webp);
-        height: 100%;
-      "
-    >
-      <div class="row" style="padding-top: 140px">
-        <!-- elso -->
-        <div class="col-sm-4">
+    <div class="container kartya"
+    style="
+      background-image: url(Forrasok/kepek/háttér/tölgydeszka.webp);
+      height: 100%;
+    ">
+      <div class="row align-items-start" style="padding-top: 140px;">
+        <div class="col">
           <div class="card text-white bg-dark border-black mt-3">
             <img
               src="Forrasok/mobok/főellenség/endsárkány/endsárkány.png"
@@ -38,12 +35,75 @@
             />
             <div class="card-body">
               <h4 class="card-title">Endsárkány</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text">
+                <p>Életerő: 100</p>
+                <p>Sebzés: 1,5-7,5</p>
+                Keletkezés:
+                <p>
+                  A végzetsárkány csakis a végben terem és csak 1 darab van
+                  belőle.
+                </p>
+                Zsákmány:
+                <p>
+                  Ha legyőzted a sárkányt, akkor a legmagasabb XP jutalomban
+                  részesülsz, a halála helyén megjelenik a visszautat nyújtó
+                  portál, és a sárkánytojás is. A portálba lépve mielőtt
+                  visszajutsz, egy dialógust látsz majd. Ha legyőzted,
+                  végigvitted a Minecraftot, viszont a portálba ugrás után
+                  változatlanul tovább játszhatod a játékot.
+                </p>
+                Viselkedés:
+                <p>
+                  A végzetsárkány nehézségi szinttől függetlenül megtámad amint
+                  a végbe érkeztél. Ha megsebesült az egyik obszidiántornyon
+                  levő végzetkristály körül repül így feltölti az életét. A
+                  sárkány képes minden létező blokkot áttörni.
+                </p>
+              </div>
               <div class="card-footer bg-black text-center">
                 <small class="text-muted">Főellenség</small>
               </div>
             </div>
           </div>
+        </div>
+        <div class="col">
+          <div class="card text-white bg-dark border-black mt-3">
+            <img
+              src="Forrasok/mobok/főellenség/wither/wither.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h4 class="card-title">Wither</h4>
+              <div class="card-text">
+                <p>Életerő(szívben): 150-300</p>
+                <p>Sebzés(szívben): 2,5-6</p>
+
+                Keletkezés:
+                <p>
+                  Nem terem természetesen, hanem a játékosnak kell megépíteni
+                  lélekhomokból és withercsontváz koponyából
+                </p>
+
+                Zsákmány:
+                <p>
+                  Halálakor egy alvilági csillagot dob, valamint 50
+                  tapasztalatot dob.
+                </p>
+
+                Viselkedés:
+                <p>
+                  Koponyákat lőnek ki, amik úgy néznek ki, mint a wither egyik
+                  feje. Ha eltalálja a játékost sorvadás effektet kap.
+                </p>
+              </div>
+              <div class="card-footer bg-black text-center">
+                <small class="text-muted">Főellenség</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
           <div class="card text-white bg-dark border-black mt-3">
             <img
               src="Forrasok/mobok/ellenséges/creeper/creeper.png"
@@ -52,12 +112,44 @@
             />
             <div class="card-body">
               <h4 class="card-title">Creeper</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text">
+                <p>Életerő(szívben): 10</p>
+                <p>Sebzés(szívben): 25,5 (töltve 85)</p>
+
+                Keletkezés:
+                <p>
+                  Creeperek bárhol keletkezhetnek a világban kivéve gomba
+                  szigeteken és a mély sötétségben.
+                </p>
+
+                Zsákmány:
+                <p>
+                  Ha egy creepert egy játékos megöl akkor az 5 tapasztalatpontot
+                  kap belőle, továbbá akár 2 puskaport. Ha egy csontváz öl meg
+                  eggyet akkor van esély rá hogy hanglemezt dobjon.
+                </p>
+
+                Viselkedés:
+                <p>
+                  Ha a játékostól 3 blokkon belül egy creeper abbahagyja a
+                  mozgást, sziszeg, villog és kitágul, majd 1,5 másodperc múlva
+                  felrobban, tönkretéve a blokkokat a területen, valamint
+                  jelentősen megrongálva a játékost. A creeper detonációja
+                  leállítható, ha a játékos elhagyja a robbanás sugarát. A
+                  feltöltött creeper jelentősen megnövelt robbanóképességgel
+                  rendelkezik. Feltöltött creeper csak akkor jön létre, ha egy
+                  normál creeper négy blokkján belül becsap a villám.
+                </p>
+              </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
           <div class="card text-white bg-dark border-black mt-3">
             <img
               src="Forrasok/mobok/ellenséges/csontváz/csontváz.png"
@@ -66,12 +158,98 @@
             />
             <div class="card-body">
               <h4 class="card-title">Csontváz</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text">
+                <p>Életerő(szívben): 10</p>
+                <p>Sebzés(szívben): 3-4</p>
+
+                Keletkezés:
+                <p>
+                  A csontvázak 0-ás fényszinten , 4-es vagy 5-ös csoportokban
+                  jönnek létre a a világban, és 7-es vagy annál alacsonyabb
+                  fényszinten is megjelenhetnek az alvilágban. ‌
+                </p>
+
+                Zsákmány:
+                <p>
+                  Ha egy csontvázat egy játékos megöl akkor az 5
+                  tapasztalatpontot kap belőle. Ha a csontváz felszereléssel is
+                  rendelkezett az extra 1-3 tapasztalatpontot jelent. A csontváz
+                  ezenkívül csontot, nyilat, felszerelését dobhatja el.
+                </p>
+
+                Viselkedés:
+                <p>
+                  Amikor a célpontt van 15 blokkon belül, tiszta rálátás mellett
+                  elkezdenek lövöldözni nyilakkal 2 másodpercenként egyszer. Ha
+                  a játékos elhagyja a 15 blokkos sugarat, a csontvázak
+                  feltöltött íjjal várnak néhány másodpercet, és akkor lőnek,
+                  amikor a játékos ismét hatótávolságon belülre kerül. A
+                  csontvázak hajnalban elégnek, amikor a Nap 15 fokkal vagy
+                  magasabban van a föld felett. Néhány csontváz képes felszedni
+                  a földről leejtett tárgyakat. A zombikkal ellentétben azonban
+                  csak fegyvereket vagy páncélokat vesznek fel.
+                </p>
+              </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
             </div>
           </div>
+        </div>
+        <div class="col">
+          One of three columns
+        </div>
+        <div class="col">
+          One of three columns
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          One of three columns
+        </div>
+        <div class="col">
+          One of three columns
+        </div>
+        <div class="col">
+          One of three columns
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div
+      class="container kartya"
+      style="
+        background-image: url(Forrasok/kepek/háttér/tölgydeszka.webp);
+        height: 100%;
+      "
+    >
+      <div class="row align-items-start" style="padding-top: 140px;">
+        <!-- elso -->
+        <div class="col-sm-4">
+          
+         
+          
 
           <div class="card text-white bg-dark border-black mt-3">
             <img
@@ -81,7 +259,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Hoglin</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -96,7 +274,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Warden</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -110,7 +288,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Szellem</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -125,7 +303,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Axolotl</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -139,7 +317,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Halak</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -154,7 +332,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Falusi</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -169,7 +347,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Hóember</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -184,7 +362,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Papagáj</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -197,8 +375,10 @@
               alt="..."
             />
             <div class="card-body">
-              <h4 class="card-title">Ezüstmoly</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <h4 class="card-title">Delfin</h4>
+              <div class="card-text">
+               
+              </div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>
@@ -212,7 +392,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Méhe</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>
@@ -225,8 +405,8 @@
               alt="..."
             />
             <div class="card-body">
-              <h4 class="card-title">Zombimalacember</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <h4 class="card-title">Zombimalac</h4>
+              <div class="card-text"></div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>
@@ -235,20 +415,7 @@
         </div>
         <!-- masodik -->
         <div class="col-sm-4">
-          <div class="card text-white bg-dark border-black mt-3">
-            <img
-              src="Forrasok/mobok/főellenség/wither/wither.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h4 class="card-title">Wither</h4>
-              <p class="card-text">Some example text. Some example text.</p>
-              <div class="card-footer bg-black text-center">
-                <small class="text-muted">Főellenség</small>
-              </div>
-            </div>
-          </div>
+          
 
           <div class="card text-white bg-dark border-black mt-3">
             <img
@@ -258,7 +425,31 @@
             />
             <div class="card-body">
               <h4 class="card-title">Ezüstmoly</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text">
+                <p>Életerő(szívben): 4</p>
+                <p>Sebzés(szívben): 0,5</p>
+
+                Keletkezés:
+                <p>
+                  Az ezüstmolyok törött, fertőzött blokkokban keletkeznek,
+                  amelyek erődökben, föld alatti hegyekbem és iglupincékben és
+                  erdei kastélyok hamis portálszobáiban keletkeznek.
+                </p>
+
+                Zsákmány:
+                <p>
+                  Ha egy ezüstmolyt egy játékos megöl akkor csak 5
+                  tapasztalatpontot kap belőle.
+                </p>
+
+                Viselkedés:
+                <p>
+                  Az ezüstmolyok támadják a játékosokat, vasgólemeket és hívják
+                  a környéken lévő többi ezüstmolyt, amikor eltalálják őket.
+                  ezüstmoly útvonalat talál a játékos felé, és láthatja a
+                  játékost a falakon keresztül is.
+                </p>
+              </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -273,7 +464,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Magmakocka</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -288,7 +479,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Zombi</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -302,7 +493,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Őrszem</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -317,7 +508,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Bárány</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -331,7 +522,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Malac</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -346,7 +537,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Gombatehén</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -361,7 +552,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Ló</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -376,7 +567,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Róka</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -390,7 +581,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Tintahal</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -404,7 +595,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Enderman</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>
@@ -418,14 +609,14 @@
             />
             <div class="card-body">
               <h4 class="card-title">Piglin</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>
             </div>
           </div>
         </div>
-       
+
         <!-- harmadik -->
         <div class="col-sm-4">
           <div class="card text-white bg-dark border-black mt-3">
@@ -436,7 +627,33 @@
             />
             <div class="card-body">
               <h4 class="card-title">Boszorkány</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text">
+                <p>Életerő(szívben): 13</p>
+                <p>Sebzés(szívben): -sebzés bájitala 6, -mérgezés bájitala</p>
+
+                Keletkezés:
+                <p>
+                  A boszorkányok a sötétben, mocsári kunyhókban , portyák során
+                  és amikor villám csap a falusiba , keletkeznek . Minden
+                  mocsárkunyhóban egy boszorkány és egy feketemacska születik a
+                  világba.
+                </p>
+
+                Zsákmány:
+                <p>
+                  Ha egy boszorkányt egy játékos megöl akkor az 5
+                  tapasztalatpontot kap belőle. A boszorkány ezenfelül botokat ,
+                  üvegeket , izzókő-port , vöröskő-port , pókszemet , puskaport
+                  vagy cukrot ejthet le .
+                </p>
+
+                Viselkedés: A boszorkányok 85%-ban ellenállnak bizonyos mágikus
+                forrásoknak.A boszorkány az első szintű bájitalokat használja a
+                harcban , támadásban bájitalokat dobál, védekezésül pedig
+                főzeteket iszik . Egy boszorkánynak végtelen bájitalkészlete
+                van. A boszorkány tíz blokkon belül három másodperces
+                időközönként dobja el bájitalait.
+              </div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -451,7 +668,17 @@
             />
             <div class="card-body">
               <h4 class="card-title">Fantom</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"><p>Életerő(szívben): 10</p>
+                <p>Sebzés(szívben): 3</p>
+                
+                Keletkezés:
+                <p>Fantomok csak akkor jönnek létre ha az égbolt elérhető, éjszaka vagy vihar van és a játékos már eltöltött 3 alvás nélküli napot. Ha minden feltétel teljesül, egy fantomcsoport megpróbál 20–34 blokknon belül a játékos felett megjelenni.</p>
+                
+                Zsákmány:
+                <p>Ha egy fantomot egy játékos megöl akkor az 5 tapasztalatpontot kap belőle. Egy fantom még dobhat akár famtommembránt is.</p>
+                
+                Viselkedés:
+                <p>A fantomok körkörös mintázatban repülnek a játékostól nem messze, miközben szürke füstöt hagynak maguk után. Mozgási sebességük az egyik leggyorsabb a mobok közül, akár 20 blokk másodpercenként. A fantomok 10-20 másodpercenként egyszer‌ gyorsan lecsapnak a játékosra és megbróbálják megharapni.</p></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -466,7 +693,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Nyálka</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -481,7 +708,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Őrláng</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -495,7 +722,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Fosztogató</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-danger text-center">
                 <small class="text-muted">Ellenséges</small>
               </div>
@@ -510,7 +737,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Csirke</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -525,7 +752,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Gömbhal</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -540,7 +767,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Macska</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -555,7 +782,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Tehén</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -570,7 +797,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Denevér</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-success text-center">
                 <small class="text-muted">Passzív</small>
               </div>
@@ -584,7 +811,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Farkas</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>
@@ -598,7 +825,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Láma</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>
@@ -612,7 +839,7 @@
             />
             <div class="card-body">
               <h4 class="card-title">Vasgólem</h4>
-              <p class="card-text">Some example text. Some example text.</p>
+              <div class="card-text"></div>
               <div class="card-footer bg-warning text-center">
                 <small class="text-muted">Semleges</small>
               </div>

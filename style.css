@@ -284,3 +284,6 @@ body {
   top: 20%;
   max-width: max-content;
 }
+.card-text {
+  font-size: 8px;
+}
