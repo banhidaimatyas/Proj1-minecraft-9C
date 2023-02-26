@@ -140,7 +140,4 @@ var quiz = {
 };
 window.addEventListener("load", quiz.init);
 
-function toggleDropdown() {
-  var dropdownMenu = document.getElementById("dropdownMenu");
-  dropdownMenu.classList.toggle("show");
-}
+
