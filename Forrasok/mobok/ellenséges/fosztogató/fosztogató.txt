@@ -1,10 +1,11 @@
 Életerő(szívben): 12
 Sebzés(szívben): 3
 
-Keletkezés:
+Keletkezés: Előőrsökben (toronyszerű építmények) találhatóak. Emellett a játékoshoz közel is keletkezhetnek.
 
 
-Zsákmány:
+Zsákmány: Emerald mellett, akár könyvet, vas eszközöket, felszereléseket dobhatnak.
 
 
 Viselkedés:
+Ha nyílpuskát használnak, a legjobb, ha továbbra is közelharci fegyverrel támadsz rájuk, mivel időbe telik, amíg újratöltenek. Míg, ha fejszét használnak, a játékosoknak pajzzsal kell védeniük a támadásaikat, és meg kell találniuk a megfelelő időt a visszatámadásra.
