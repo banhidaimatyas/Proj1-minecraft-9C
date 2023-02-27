@@ -501,3 +501,4 @@ function info40() {
     spolier.style.display = "none";
   }
 }
+
