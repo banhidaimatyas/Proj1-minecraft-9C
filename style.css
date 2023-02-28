@@ -437,9 +437,11 @@ button {
 }
 .card-text {
   font-size: 2vh;
+  font-family: cursive;
 }
 .card-title {
   font-size: 3vh;
+  font-family: cursive;
 }
 
 /* dropdown menü */
