@@ -215,7 +215,7 @@ body {
 }
 
 #quizQn {
-  padding-top: 3vh;
+  padding-top: 2vh;
   padding-bottom: 3vh;
   padding-right: 2vw;
   padding-left: 2vh;
@@ -225,6 +225,9 @@ body {
   font-size: 3vh;
   font-family: cursive;
   text-align: center;
+  border: #4a5cc0 solid;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 #quizAns {
@@ -237,6 +240,12 @@ body {
   font-family: cursive;
   text-align: center;
 }
+
+#quizAns label:hover {
+  background-color: #b8b8b8;
+  border: black 2px solid;
+}
+
 #quizAns input[type="radio"] {
   display: none;
 }
@@ -261,6 +270,22 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.szamok {
+  border-bottom: #000000 solid 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#ujra {
+  margin-left: 50px;
+  background-color: rgb(0, 0, 0);
+  color: yellow;
+  font-size: 2vh;
+}
+#ujra:hover {
+  color: rgb(110, 129, 0);
+  background-color: rgb(41, 41, 41);
 }
 
 .oldallap {
