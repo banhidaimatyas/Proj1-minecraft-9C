@@ -303,7 +303,7 @@ body {
   max-width: max-content;
 }
 
-.bevezetés {
+.szöveg0 {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
@@ -330,24 +330,6 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 80%;
-  margin-bottom: 5%;
-
-  color: white;
-  background-color: hsl(0, 0%, 0%, 0.7);
-  border-radius: 10px;
-  font-size: 1.5em;
-  font-style: italic;
-  font-family: cursive;
-}
-.szöveg2 {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 80%;
-  margin-bottom: 5%;
 
   color: white;
   background-color: hsl(0, 0%, 0%, 0.7);
@@ -357,23 +339,6 @@ body {
   font-family: cursive;
 }
 
-.szöveg3 {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 80%;
-  margin-bottom: 5%;
-
-  color: white;
-  background-color: hsl(0, 0%, 0%, 0.7);
-  border-radius: 10px;
-  font-size: 1.5em;
-  font-style: italic;
-  font-family: cursive;
-}
 .képek {
   margin-left: 5%;
   margin-right: 5%;
@@ -388,11 +353,10 @@ body {
 
 @media only screen and (max-width: 600px) {
   .szöveg1,
-  .szöveg2,
-  .szöveg3,
+  .biomszöveg,
   .képek,
   .cím,
-  .bevezetés {
+  .szöveg0 {
     font-size: 1em;
     margin-left: 2%;
     margin-right: 2%;
@@ -509,7 +473,7 @@ button {
   margin-top: 113px;
   padding: 0;
   z-index: 1;
-  
+
   max-width: max-content;
 }
 
@@ -522,13 +486,13 @@ button {
 .cím {
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 10px;
+  margin-top: 20px;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 80%;
-  margin-bottom: 2%;
+  margin-bottom: 10px;
   text-align: center;
   color: white;
   background-color: hsl(0, 0%, 0%, 0.7);
@@ -540,7 +504,7 @@ button {
 .képek1 {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 1%;
   width: 90%;
-  border-radius: 50px;
+  border-radius: 20px;
 }
+
