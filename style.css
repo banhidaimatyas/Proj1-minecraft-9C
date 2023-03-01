@@ -79,6 +79,12 @@ body {
   background-size: 29.1vh;
 }
 
+.rkő {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Forrasok/kepek/háttér/rkő.webp);
+  background-size: 29.1vh;
+}
 .fenyődeszka {
   width: 100%;
   height: 100vh;
@@ -410,4 +416,10 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* rólunk */
+
+.bszoveg {
+  font-size: 2vh;
 }
