@@ -2,62 +2,62 @@
 var quiz = {
   data: [
     {
-      q: "Melyik blokkot tudja kitörni az endersárkány?",
+      q: "<span class='szamok'>12/1</span> <br>Melyik blokkot tudja kitörni az endersárkány?",
       o: ["obszidián", "bedrock", "endkő", "zúzottkő"],
       a: 3,
     },
     {
-      q: "Melyik a jobb páncél, az arany vagy a lánc?",
+      q: "<span class='szamok'>12/2</span> <br>Melyik a jobb páncél, az arany vagy a lánc?",
       o: ["arany", "lánc", "ugyanolyanok", "nem tudom"],
       a: 1,
     },
     {
-      q: "Mi nem kell a napelem kraftolásához?",
+      q: "<span class='szamok'>12/3</span> <br>Mi nem kell a napelem kraftolásához?",
       o: ["vöröskő", "kvarc", "üveg", "fadeszka lap"],
       a: 0,
     },
     {
-      q: "Körülbelül havonta hány millióan játszák a játékot?",
+      q: "<span class='szamok'>12/4</span> <br>Körülbelül havonta hány millióan játszák a játékot?",
       o: ["60", "300", "50", "100"],
       a: 3,
     },
     {
-      q: "A játék kezdeti szakaszában hogyan hívták a játékot?",
+      q: "<span class='szamok'>12/5</span> <br>A játék kezdeti szakaszában hogyan hívták a játékot?",
       o: ["Minecraft", "Infinimer", "Cave Game", "Block World"],
       a: 2,
     },
     {
-      q: "Hány biom van a játékban?",
+      q: "<span class='szamok'>12/6</span> <br>Hány biom van a játékban?",
       o: ["60", "79", "98", "67"],
       a: 1,
     },
     {
-      q: "Mitől félnek a creeperek?",
+      q: "<span class='szamok'>12/7</span> <br>Mitől félnek a creeperek?",
       o: ["ocelotok", "kutyák", "papagájok", "csontvázak"],
       a: 0,
     },
     {
-      q: "Mikor adták ki a játékot?",
+      q: "<span class='szamok'>12/8</span> <br>Mikor adták ki a játékot?",
       o: ["2010", "2008", "2011", "2012"],
       a: 2,
     },
     {
-      q: "Melyik az a tárgy, amely a legtöbb barkácsolási recepthez kell?",
+      q: "<span class='szamok'>12/9</span> <br>Melyik az a tárgy, amely a legtöbb barkácsolási recepthez kell?",
       o: ["vas", "zúzottkő", "vöröskő", "fadeszka"],
       a: 0,
     },
     {
-      q: "Mennyi tapasztalattal jár az endersárkány megölése?",
+      q: "<span class='szamok'>12/10</span> <br>Mennyi tapasztalattal jár az endersárkány megölése?",
       o: ["3000", "5000", "300", "12000"],
       a: 3,
     },
     {
-      q: "Melyik a legritkább blokk a játékban?",
+      q: "<span class='szamok'>12/11</span> <br>Melyik a legritkább blokk a játékban?",
       o: ["endportál", "netherite", "sárkánytojás", "elytra"],
       a: 2,
     },
     {
-      q: "Melyik koordináta alatt található gyémánt?",
+      q: "<span class='szamok'>12/12</span> <br>Melyik koordináta alatt található gyémánt?",
       o: ["y=9", "y=15", "y=20", "y=11"],
       a: 1,
     },
