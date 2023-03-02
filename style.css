@@ -78,13 +78,13 @@ body {
   background-image: url(Forrasok/kepek/háttér/bedrock.webp);
   background-size: 29.1vh;
 }
+
 .rkő {
   width: 100%;
   height: 100vh;
   background-image: url(Forrasok/kepek/háttér/rkő.webp);
   background-size: 29.1vh;
 }
-
 .fenyődeszka {
   width: 100%;
   height: 100vh;
@@ -465,6 +465,31 @@ button {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+
+/* rólunk */
+
+.bszoveg {
+  font-size: 2vh;
+  text-align: justify;
+  
+}
+.oldalszele {
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.rhatter {
+  background-image: url(Forrasok/kepek/háttér/rkő.webp);
+  height: 100%;
+  max-width: max-content;
+  
+}
+#oldalalja
+{
+  margin-bottom: 0px;
+  padding-bottom: 2vh;
 }
 
 /* biomok */
