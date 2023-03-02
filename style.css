@@ -422,4 +422,22 @@ body {
 
 .bszoveg {
   font-size: 2vh;
+  text-align: justify;
+  
+}
+.oldalszele {
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.rhatter {
+  background-image: url(Forrasok/kepek/háttér/rkő.webp);
+  height: 100%;
+  max-width: max-content;
+  
+}
+#oldalalja
+{
+  margin-bottom: 0px;
+  padding-bottom: 2vh;
 }
