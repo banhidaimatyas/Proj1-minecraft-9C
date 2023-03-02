@@ -433,6 +433,14 @@ button {
   font-family: cursive;
 }
 
+.interaktiv:hover {
+  background-color: #272727;
+}
+
+.interaktiv:active {
+  background-color: #686868;
+}
+
 /* dropdown menü */
 .dropdown-menu {
   background-color: rgb(34, 34, 34);
