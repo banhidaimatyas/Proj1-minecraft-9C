@@ -296,6 +296,9 @@ body {
   height: 100%;
   opacity: 0.4;
 }
+
+/* biomok */
+
 .tároló {
   margin: 0;
   position: absolute;
@@ -362,26 +365,22 @@ body {
     margin-right: 2%;
     width: 96%;
   }
-  
 }
 
 .b_konyvjelzo:hover {
-  background-color: #2d8600;
+  color: #9a9a9a;
+  background-color: #4b402b;
   border-radius: 7px;
 }
-.b_konyvjelzo:link {
-text-decoration: none;
-color: #fff;
-}
 
-.b_konyvjelzo:visited {
+.a_konyvjelzo:link {
   text-decoration: none;
-  color: #fff;
-  
-
+  color: #ffffff;
 }
-.b_konyvjelzo:active{ text-decoration: none;
-  color: #fff;}
+.a_konyvjelzo:visited {
+  text-decoration: none;
+  color: #bbbbbb;
+}
 
 /* kártyák */
 .kartya {
@@ -493,27 +492,22 @@ button {
   }
 }
 
-
 /* rólunk */
 
 .bszoveg {
   font-size: 2vh;
   text-align: justify;
-  
 }
 .oldalszele {
   margin-left: 5%;
   margin-right: 5%;
-  
 }
 .rhatter {
   background-image: url(Forrasok/kepek/háttér/rkő.webp);
   height: 100%;
   max-width: max-content;
-  
 }
-#oldalalja
-{
+#oldalalja {
   margin-bottom: 0px;
   padding-bottom: 2vh;
 }
@@ -558,4 +552,3 @@ button {
   width: 90%;
   border-radius: 20px;
 }
-
