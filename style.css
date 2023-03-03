@@ -365,6 +365,24 @@ body {
   
 }
 
+.b_konyvjelzo:hover {
+  background-color: #2d8600;
+  border-radius: 7px;
+}
+.b_konyvjelzo:link {
+text-decoration: none;
+color: #fff;
+}
+
+.b_konyvjelzo:visited {
+  text-decoration: none;
+  color: #fff;
+  
+
+}
+.b_konyvjelzo:active{ text-decoration: none;
+  color: #fff;}
+
 /* kártyák */
 .kartya {
   margin: 0;
