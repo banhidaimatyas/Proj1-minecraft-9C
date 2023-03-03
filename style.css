@@ -362,15 +362,19 @@ body {
     margin-right: 2%;
     width: 96%;
   }
-  
 }
 
 /* kártyák */
-.kartya {
+.tablakartya {
   margin: 0;
   z-index: 1;
   top: 20%;
   max-width: max-content;
+}
+.tabla {
+  margin-top: 130px;
+  font-family: cursive;
+  text-align: center;
 }
 
 #info1,
@@ -441,6 +445,8 @@ button {
   background-color: #686868;
 }
 
+
+
 /* dropdown menü */
 .dropdown-menu {
   background-color: rgb(34, 34, 34);
@@ -475,27 +481,22 @@ button {
   }
 }
 
-
 /* rólunk */
 
 .bszoveg {
   font-size: 2vh;
   text-align: justify;
-  
 }
 .oldalszele {
   margin-left: 5%;
   margin-right: 5%;
-  
 }
 .rhatter {
   background-image: url(Forrasok/kepek/háttér/rkő.webp);
   height: 100%;
   max-width: max-content;
-  
 }
-#oldalalja
-{
+#oldalalja {
   margin-bottom: 0px;
   padding-bottom: 2vh;
 }
@@ -540,4 +541,3 @@ button {
   width: 90%;
   border-radius: 20px;
 }
-
