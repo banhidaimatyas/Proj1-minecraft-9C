@@ -71,14 +71,14 @@ var quiz = {
   score: 0,
 
   init: () => {
-    quiz.hWrap = document.getElementById("quizWrap");
+    quiz.hWrap = document.getElementById("quiz-wrap");
 
     quiz.hQn = document.createElement("div");
-    quiz.hQn.id = "quizQn";
+    quiz.hQn.id = "quiz-qn";
     quiz.hWrap.appendChild(quiz.hQn);
 
     quiz.hAns = document.createElement("div");
-    quiz.hAns.id = "quizAns";
+    quiz.hAns.id = "quiz-ans";
     quiz.hWrap.appendChild(quiz.hAns);
 
     quiz.draw();

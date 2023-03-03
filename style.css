@@ -5,13 +5,13 @@ body {
   margin: 0;
   background-image: linear-gradient(45deg, rgb(255, 255, 187), rgb(0, 0, 101));
   background-size: 600%;
-  animation: háttér 60s infinite;
+  animation: hatter 60s infinite;
   box-sizing: border-box;
 }
-.háttér {
+.hatter {
   z-index: -1;
 }
-.tulipán {
+.tulipan {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/tulipán.webp);
@@ -21,7 +21,7 @@ body {
   position: relative;
   background-position: 10vh;
 }
-.fű {
+.fu {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/fű.webp);
@@ -30,43 +30,43 @@ body {
   position: absolute;
 }
 
-.fföld {
+.ffold {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/fföld.webp);
   background-size: 29.1vh;
 }
-.föld {
+.fold {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/föld.webp);
   background-size: 29.1vh;
 }
-.föld-kő {
+.fold-ko {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/föld-kő.png);
   background-size: 29.1vh;
 }
-.kő {
+.ko {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/kő.webp);
   background-size: 29.1vh;
 }
-.kő-dkő {
+.ko-dko {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/kő-dkő.png);
   background-size: 29.1vh;
 }
-.dkő {
+.dko {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/dkő.webp);
   background-size: 29.1vh;
 }
-.dkő-bedrock {
+.dko-bedrock {
   width: 100%;
   height: 29vh;
   background-image: url(Forrasok/kepek/háttér/dkő-bedrock.png);
@@ -79,26 +79,26 @@ body {
   background-size: 29.1vh;
 }
 
-.rkő {
+.rko {
   width: 100%;
   height: 100vh;
   background-image: url(Forrasok/kepek/háttér/rkő.webp);
   background-size: 29.1vh;
 }
-.fenyődeszka {
+.fenyodeszka {
   width: 100%;
   height: 100vh;
   background-image: url(Forrasok/kepek/háttér/fenyődeszka.webp);
   background-size: 29.1vh, cover;
 }
-.könyv {
+.konyv {
   width: 100%;
   height: 100vh;
   background-image: url(Forrasok/kepek/háttér/könyv.webp);
   background-size: 29.1vh;
 }
 
-@keyframes háttér {
+@keyframes hatter {
   0% {
     background-position: left;
   }
@@ -178,7 +178,7 @@ body {
   transform-origin: left;
 }
 
-.bevezetés {
+.bevezetes {
   margin-left: 10%;
   margin-right: 10%;
   padding-left: 2%;
@@ -210,11 +210,11 @@ body {
 
 /* quiz */
 
-#quizWrap {
+#quiz-wrap {
   height: 250px;
 }
 
-#quizQn {
+#quiz-qn {
   padding-top: 2vh;
   padding-bottom: 3vh;
   padding-right: 2vw;
@@ -230,7 +230,7 @@ body {
   border-top-left-radius: 30px;
 }
 
-#quizAns {
+#quiz-ans {
   margin-left: 1vw;
   margin-right: 1vw;
   display: grid;
@@ -241,30 +241,30 @@ body {
   text-align: center;
 }
 
-#quizAns label:hover {
+#quiz-ans label:hover {
   background-color: #b8b8b8;
   border: black 2px solid;
 }
 
-#quizAns input[type="radio"] {
+#quiz-ans input[type="radio"] {
   display: none;
 }
-#quizAns label {
+#quiz-ans label {
   background: #f5efef;
   font-size: 3vh;
   cursor: pointer;
   text-align: center;
 }
-#quizAns label.correct {
+#quiz-ans label.correct {
   background: #9ff375;
   border: 1px solid #2d8600;
 }
-#quizAns label.wrong {
+#quiz-ans label.wrong {
   background: #f17474;
   border: 1px solid #f10707;
 }
 
-#quizelr {
+#quiz-elr {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -296,14 +296,14 @@ body {
   height: 100%;
   opacity: 0.4;
 }
-.tároló {
+.tarolo {
   margin: 0;
   position: absolute;
   top: 68%;
   max-width: max-content;
 }
 
-.szöveg0 {
+.szoveg0 {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
@@ -321,7 +321,7 @@ body {
   font-family: cursive;
 }
 
-.szöveg1 {
+.szoveg1 {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10px;
@@ -339,7 +339,7 @@ body {
   font-family: cursive;
 }
 
-.képek {
+.kepek {
   margin-left: 5%;
   margin-right: 5%;
   padding-top: 15px;
@@ -352,11 +352,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .szöveg1,
-  .biomszöveg,
-  .képek,
-  .cím,
-  .szöveg0 {
+  .szoveg1,
+  .biomszoveg,
+  .kepek,
+  .cim,
+  .szoveg0 {
     font-size: 1em;
     margin-left: 2%;
     margin-right: 2%;
@@ -516,7 +516,7 @@ button {
   padding: 15px;
   margin: 15px;
 }
-.cím {
+.cim {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 20px;
@@ -534,7 +534,7 @@ button {
   font-style: italic;
   font-family: cursive;
 }
-.képek1 {
+.kepek1 {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
