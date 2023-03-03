@@ -501,4 +501,13 @@ function info40() {
     spolier.style.display = "none";
   }
 }
+function tartalom() {
+  var spolier = document.getElementById("tartalom");
+
+  if (spolier.style.display == "none") {
+    spolier.style.display = "table";
+  } else {
+    spolier.style.display = "none";
+  }
+}
 

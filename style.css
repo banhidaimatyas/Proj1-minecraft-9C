@@ -372,7 +372,7 @@ body {
   max-width: max-content;
 }
 .tabla {
-  margin-top: 130px;
+  
   font-family: cursive;
   text-align: center;
 }
@@ -418,6 +418,7 @@ body {
 #info39,
 #info40 {
   display: none;
+
 }
 
 button {
@@ -445,7 +446,26 @@ button {
   background-color: #686868;
 }
 
+.konyvjelzo:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.konyvjelzo:visited {
+  color: #ffffff;
+  text-decoration: none;
+ 
+}
+.konyvjelzo:hover
+{
+color: #9e9e9e;
+}
+.konyvjelzo:active {
+color: #4b4b4b;
 
+}
+.td {
+  font-size: 0,5vh;
+}
 
 /* dropdown menü */
 .dropdown-menu {
