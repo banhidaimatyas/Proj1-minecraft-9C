@@ -273,6 +273,61 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#vege1 {
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+  padding-left: 2vh;
+  min-width: 300px;
+  background: #165f00;
+  color: #fff;
+  font-size: 3vh;
+  font-family: cursive;
+  text-align: center;
+  border: #165f00 solid;
+  border-radius: 30px;
+  right: 50%;
+  left: 50%;
+  
+  
+}
+#vege2 {
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+  padding-left: 2vh;
+  min-width: 300px;
+  background: #3a3a3a;
+  color: #fff;
+  font-size: 3vh;
+  font-family: cursive;
+  text-align: center;
+  border: #3a3a3a solid;
+  border-radius: 30px;
+  right: 50%;
+  left: 50%;
+  
+  
+}
+#vege3 {
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+  padding-right: 2vw;
+  padding-left: 2vh;
+  min-width: 300px;
+  background: #ac1d1d;
+  color: #fff;
+  font-size: 3vh;
+  font-family: cursive;
+  text-align: center;
+  border: #ac1d1d solid;
+  border-radius: 30px;
+  right: 50%;
+  left: 50%;
+  
+  
+}
+
 .szamok {
   border-bottom: #000000 solid 5px;
   padding-left: 10px;

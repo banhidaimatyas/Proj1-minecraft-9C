@@ -127,7 +127,11 @@ var quiz = {
       } else {
         quiz.hQn.innerHTML = `${quiz.score} jó válaszod született a ${quiz.data.length} kérdésből.`;
         quiz.hAns.innerHTML = "";
+        if (quiz.score >= 12) quiz.hAns.innerHTML = "<div id='vege1'>Kiváló munka! Nincs szükséged gyakorlásra!</div>";
+        if (quiz.score <= 11 && quiz.score >= 7) quiz.hAns.innerHTML = "<div id='vege2'>Szép teljesítmény!</div>";
+        if (quiz.score <= 6 && quiz.score >= 0) quiz.hAns.innerHTML = "<div id='vege3'>Sajnos nem sikerült, legközelebb próbáld újra.</div>";
       }
+      
     }, 1000);
   },
 
