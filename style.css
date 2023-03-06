@@ -244,6 +244,7 @@ body {
 #quizAns label:hover {
   background-color: #b8b8b8;
   border: black 2px solid;
+  transition: 0.2s;
 }
 
 #quizAns input[type="radio"] {
@@ -286,6 +287,7 @@ body {
 #ujra:hover {
   color: rgb(110, 129, 0);
   background-color: rgb(41, 41, 41);
+  transition: 0.3s;
 }
 
 .oldallap {
@@ -365,13 +367,13 @@ body {
     margin-right: 2%;
     width: 96%;
   }
-
 }
 
 .b_konyvjelzo:hover {
   color: #9a9a9a;
   background-color: #4b402b;
   border-radius: 7px;
+  transition: 0.3s;
 }
 
 .a_konyvjelzo:link {
@@ -391,7 +393,6 @@ body {
   max-width: max-content;
 }
 .tabla {
-  
   font-family: cursive;
   text-align: center;
 }
@@ -437,7 +438,6 @@ body {
 #info39,
 #info40 {
   display: none;
-
 }
 
 button {
@@ -459,6 +459,7 @@ button {
 
 .interaktiv:hover {
   background-color: #272727;
+  transition: 0.3s;
 }
 
 .interaktiv:active {
@@ -472,18 +473,15 @@ button {
 .konyvjelzo:visited {
   color: #ffffff;
   text-decoration: none;
- 
 }
-.konyvjelzo:hover
-{
-color: #9e9e9e;
+.konyvjelzo:hover {
+  color: #9e9e9e;
 }
 .konyvjelzo:active {
-color: #4b4b4b;
-
+  color: #4b4b4b;
 }
 .td {
-  font-size: 0,5vh;
+  font-size: 0, 5vh;
 }
 
 /* dropdown menü */
