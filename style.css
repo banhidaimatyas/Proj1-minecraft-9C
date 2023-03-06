@@ -365,6 +365,7 @@ body {
     margin-right: 2%;
     width: 96%;
   }
+
 }
 
 .b_konyvjelzo:hover {
@@ -383,11 +384,16 @@ body {
 }
 
 /* kártyák */
-.kartya {
+.tablakartya {
   margin: 0;
   z-index: 1;
   top: 20%;
   max-width: max-content;
+}
+.tabla {
+  
+  font-family: cursive;
+  text-align: center;
 }
 
 #info1,
@@ -431,6 +437,7 @@ body {
 #info39,
 #info40 {
   display: none;
+
 }
 
 button {
@@ -456,6 +463,27 @@ button {
 
 .interaktiv:active {
   background-color: #686868;
+}
+
+.konyvjelzo:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.konyvjelzo:visited {
+  color: #ffffff;
+  text-decoration: none;
+ 
+}
+.konyvjelzo:hover
+{
+color: #9e9e9e;
+}
+.konyvjelzo:active {
+color: #4b4b4b;
+
+}
+.td {
+  font-size: 0,5vh;
 }
 
 /* dropdown menü */
