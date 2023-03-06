@@ -296,6 +296,9 @@ body {
   height: 100%;
   opacity: 0.4;
 }
+
+/* biomok */
+
 .tároló {
   margin: 0;
   position: absolute;
@@ -362,6 +365,22 @@ body {
     margin-right: 2%;
     width: 96%;
   }
+
+}
+
+.b_konyvjelzo:hover {
+  color: #9a9a9a;
+  background-color: #4b402b;
+  border-radius: 7px;
+}
+
+.a_konyvjelzo:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.a_konyvjelzo:visited {
+  text-decoration: none;
+  color: #bbbbbb;
 }
 
 /* kártyák */
